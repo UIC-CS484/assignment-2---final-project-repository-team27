@@ -6,7 +6,7 @@
 
 Link to hosted [Project Proposal](https://uic-cs484.github.io/assignment-1---team-project-proposal-team27/proposal.html)
 
-Link to [Project]()
+Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repository-team27/)
 
 
 ## Project Details

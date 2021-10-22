@@ -1,2 +1,2 @@
-[{"id":9.537876343956011,"first_name":"Chris","last_name":"Fulton","username":"cifulton@uic.edu","password":"password01"},
-{"username": "dave", "password": "dave"}]
+[{"id":143,"first_name":"Chris","last_name":"Fulton","email":"cifulton@uic.edu","password":"password01"},
+{"email": "dave", "password": "dave", "id": 123}]

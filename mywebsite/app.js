@@ -3,17 +3,25 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const passport = require('passport');
 var session = require('express-session');
+const passport = require('passport');
+const flash = require('flash');
 
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var loginRouter = require('./routes/login');
+// var loginSubmitRouter = require('./routes/loginSubmit');
 var userRouter = require('./routes/user');
+
 
 var app = express();
 require('./config/passport')(passport);
-
+// const initializePassport = require('./config/passport')
+// initializePassport(
+//   passport,
+//   email => users.find(user => user.email === email),
+//   id => users.find(user => user.id === id)
+// )
 
 var session_config = {
         secret: 'secret', //a random unique string key used to authenticate a session
@@ -25,6 +33,7 @@ var session_config = {
 
 session_config.cookie.secure = false;//Express Sessions
 app.use(session(session_config))
+app.use(flash());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -44,6 +53,7 @@ app.use('/', indexRouter);
 app.use('/signup', signupRouter);
 app.use('/login', loginRouter);
 app.use('/user', userRouter);
+// app.use('/loginSubmit', loginSubmitRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

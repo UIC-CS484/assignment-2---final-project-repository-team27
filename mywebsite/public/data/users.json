@@ -1,2 +1,9 @@
-[{"id":143,"first_name":"Chris","last_name":"Fulton","email":"cifulton@uic.edu","password":"password01"},
-{"email": "dave", "password": "dave", "id": 123}]
+[
+    {
+        "id": "1634919094229",
+        "fname": "yashashvi",
+        "lname": "dave",
+        "email": "dave",
+        "password": "$2b$10$KJpoWmq0zwLNBUpj99iFC.QRXWWs9pOu9JbA9MUsRF/C9cSDgX4ou"
+    }
+]

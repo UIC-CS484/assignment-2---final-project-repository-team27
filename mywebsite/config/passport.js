@@ -1,5 +1,6 @@
 const LocalStrategy = require('passport-local').Strategy;
 let users = require('../public/data/users.json');
+const bcrypt = require('bcrypt');
 
 const getUserByEmail = (email) => {
     // console.log(users);
@@ -18,9 +19,7 @@ function initialize(passport) {
     }
 
     try {
-      // if (await bcrypt.compare(password, user.password)) {
-    //TODO: Use bycrypt
-      if (password == user.password) {
+      if (await bcrypt.compare(password, user.password)) {
         return done(null, user)
       } else {
         return done(null, false, { message: 'Email or Password is incorrect. Please try again.' })

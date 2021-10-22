@@ -3,6 +3,9 @@
 <p>Welcome to {{title}}</p>
 {{#if signup}}
 <h1>Thank you for sign up.</h1>
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
+{{/if}}
 <p>Please login</p>
 <a href='/login'>Login</a>
 {{else}}
@@ -17,19 +20,19 @@
   </div>
   <div class="form-group">
     <label for="email">Email</label><br>
-    <input type="email" class="form-control" id="email" name="email"><br>
+    <input type="text" class="form-control" id="email" name="email"><br>
   </div>
-  <div class="form-group">
+{{!--   <div class="form-group">
     <label for="username">Username</label><br>
     <input type="text" class="form-control" id="username" name="username"><br>
-  </div>
+  </div> --}}
   <div class="form-group">
     <label for="pwd">Password</label>
     <input type="password" class="form-control" id="pwd" name="password">
   </div>
   <div class="form-group">
     <label for="pwd">Confirm Password</label>
-    <input type="password" class="form-control" id="pwd" name="password">
+    <input type="password" class="form-control" id="cpwd" name="confirmpassword">
   </div>
   <button type="submit" class="btn btn-default">Sign up</button>
 </form>

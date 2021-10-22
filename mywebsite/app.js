@@ -6,7 +6,7 @@ var logger = require('morgan');
 var session = require('express-session');
 const passport = require('passport');
 const flash = require('flash');
-
+const bcrypt = require('bcrypt')
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var loginRouter = require('./routes/login');

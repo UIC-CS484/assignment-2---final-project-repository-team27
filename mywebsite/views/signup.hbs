@@ -1,3 +1,36 @@
 <h1>{{title}}</h1>
 <h2>Signup Page</h2>
 <p>Welcome to {{title}}</p>
+{{#if signup}}
+<h1>Thank you for sign up.</h1>
+<p>Please login</p>
+<a href='/login'>Login</a>
+{{else}}
+<form action="/signup" method='POST'>
+  <div class="form-group">
+    <label for="fname">First Name</label><br>
+    <input type="text" class="form-control" id="fname" name="fname"><br>
+  </div>
+  <div class="form-group">
+    <label for="lname">Last Name</label><br>
+    <input type="text" class="form-control" id="lname" name="lname"><br>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label><br>
+    <input type="email" class="form-control" id="email" name="email"><br>
+  </div>
+  <div class="form-group">
+    <label for="username">Username</label><br>
+    <input type="text" class="form-control" id="username" name="username"><br>
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password</label>
+    <input type="password" class="form-control" id="pwd" name="password">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Confirm Password</label>
+    <input type="password" class="form-control" id="pwd" name="password">
+  </div>
+  <button type="submit" class="btn btn-default">Sign up</button>
+</form>
+{{/if}}

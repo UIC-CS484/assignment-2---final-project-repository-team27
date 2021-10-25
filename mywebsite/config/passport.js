@@ -1,18 +1,13 @@
+const lib = require("../public/javascripts/index.js");
+
 const LocalStrategy = require('passport-local').Strategy;
-let users = require('../public/data/users.json');
+// let users = require('../public/data/users.json');
 const bcrypt = require('bcrypt');
 
-const getUserByEmail = (email) => {
-    // console.log(users);
-    return users.find(user => user.email === email);
-}
-const getUserById = (id) => {
-    return users.find(user => user.id === id);
-}
 
 function initialize(passport) {
   const authenticateUser = async (email, password, done) => {
-    const user = getUserByEmail(email)
+    const user = lib.getUserByEmail(email)
     if (user == null) {
         //TODO: Render error message
       return done(null, false, { message: 'Email or Password is incorrect. Please try again.' })
@@ -32,7 +27,7 @@ function initialize(passport) {
   passport.use(new LocalStrategy({ usernameField: 'email' }, authenticateUser))
   passport.serializeUser((user, done) => done(null, user.id))
   passport.deserializeUser((id, done) => {
-    return done(null, getUserById(id))
+    return done(null, lib.getUserById(id))
   })
 }
 

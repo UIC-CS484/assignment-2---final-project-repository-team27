@@ -3,11 +3,27 @@ var router = express.Router();
 let users = require('../public/data/users.json');
 const bcrypt = require('bcrypt');
 const fs = require('fs');
+var passwordValidator = require('password-validator');
+
+var schema = new passwordValidator();
+ 
+// Add properties to it
+schema
+.is().min(5)                                    // Minimum length 8
+.is().max(100)                                  // Maximum length 100
+.has().uppercase()                              // Must have uppercase letters
+.has().lowercase()                              // Must have lowercase letters
+.has().digits(2)                                // Must have at least 2 digits
+.has().symbols()
+.has().not().spaces()                           // Should not have spaces
+
 
 const getUserByEmail = (email) => {
     // console.log(users);
     return users.find(user => user.email === email);
 }
+
+
 function statExists(checkPath) {
   return new Promise((resolve) => {
     fs.stat(checkPath, (err, result) => {
@@ -34,6 +50,9 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', async function(req, res, next) {
+    console.log("user", req.user);
+    // console.log(req.app.get('email'));
+    console.log("authenticated, ", req.isAuthenticated());
     const fname = req.body.fname;
     const lname = req.body.lname;
     const email = req.body.email;
@@ -43,7 +62,7 @@ router.post('/', async function(req, res, next) {
     if (user != null) {
         return res.render('signup', { error: 'User already exists. Please login.' });
     }
-    console.log(users);
+    // console.log(users);
     const hashedPassword = await bcrypt.hash(req.body.password, 10)
     users.push({
       id: Date.now().toString(),

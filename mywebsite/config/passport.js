@@ -20,7 +20,7 @@ function initialize(passport) {
 
     try {
       if (await bcrypt.compare(password, user.password)) {
-        return done(null, user)
+        return done(null, user, { username: email })
       } else {
         return done(null, false, { message: 'Email or Password is incorrect. Please try again.' })
       }

@@ -7,6 +7,10 @@ var session = require('express-session');
 const passport = require('passport');
 const flash = require('flash');
 const bcrypt = require('bcrypt')
+var passwordValidator = require('password-validator');
+ 
+ 
+
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var loginRouter = require('./routes/login');
@@ -23,10 +27,11 @@ require('./config/passport')(passport);
 //   id => users.find(user => user.id === id)
 // )
 
+// TODO: Move this session secret to somewhere else?
 var session_config = {
         secret: 'secret', //a random unique string key used to authenticate a session
-        resave: true, //nables the session to be stored back to the session store, even if the session was never modified during the request
-        saveUninitialized: true, //his allows any uninitialized session to be sent to the store. When a session is created but not modified, it is referred to as uninitialized.
+        resave: true, //enables the session to be stored back to the session store, even if the session was never modified during the request
+        saveUninitialized: true, //this allows any uninitialized session to be sent to the store. When a session is created but not modified, it is referred to as uninitialized.
         cookie: { secure: true } //true is a recommended option. However, it requires an https-enabled website
         //store  parameter when saving session to database
 };

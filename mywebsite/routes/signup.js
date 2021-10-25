@@ -1,22 +1,8 @@
 var express = require('express');
 var router = express.Router();
 const bcrypt = require('bcrypt');
-var passwordValidator = require('password-validator');
-const lib = require("../public/javascripts/index.js");
-
-var schema = new passwordValidator();
- 
-// Add properties to it
-schema
-.is().min(5)                                    // Minimum length 8
-.is().max(100)                                  // Maximum length 100
-.has().uppercase()                              // Must have uppercase letters
-.has().lowercase()                              // Must have lowercase letters
-.has().digits(2)                                // Must have at least 2 digits
-.has().symbols()
-.has().not().spaces()                           // Should not have spaces
-
-
+const userLib = require("../public/javascripts/data_users.js");
+const pwdLib = require("../public/javascripts/password_schema.js")
 
 function statExists(checkPath) {
   return new Promise((resolve) => {
@@ -51,16 +37,27 @@ router.post('/', async function(req, res, next) {
     const lname = req.body.lname;
     const email = req.body.email;
     const password = req.body.password;
-    // console.log(fname, lname, email, password);
-    const user = lib.getUserByEmail(email);
+
+    // if (req.app.get('env') !== 'development' && !passwordSchema.validate(password)) {
+    //   const failed_validations = passwordSchema.validate(password, {list: true});
+    //   failed_validations
+    // }
+    const errors = pwdLib.validatePassword(password, true);
+    if (errors.length != 0) {
+      console.log(errors);
+      return res.render('signup', { signup: false, errors: errors });
+    }
+    // console.log(errors);
+
+    const user = userLib.getUserByEmail(email);
     if (user != null) {
         return res.render('signup', { error: 'User already exists. Please login.' });
     }
     // console.log(users);
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
-    lib.addUser(req.body.fname, req.body.lname, req.body.email, hashedPassword);
+    userLib.addUser(req.body.fname, req.body.lname, req.body.email, hashedPassword);
 
-  res.render('signup', { signup: true });
+  return res.render('signup', { signup: true });
 });
 
 module.exports = router;

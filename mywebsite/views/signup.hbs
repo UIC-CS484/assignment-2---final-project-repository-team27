@@ -3,12 +3,14 @@
 <p>Welcome to {{title}}</p>
 {{#if signup}}
 <h1>Thank you for sign up.</h1>
-{{#if error}}
-<div class="alert alert-danger">{{error}}</div>
-{{/if}}
 <p>Please login</p>
 <a href='/login'>Login</a>
 {{else}}
+{{#if errors}}
+{{#each errors}}
+<div class="alert alert-danger">{{this}}</div>
+{{/each}}
+{{/if}}
 {{!-- oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Password does not match" : false)' --}}
 <form id='signup-form' class="form-signin needs-validation" action="/signup" method='POST' >
   <div class="form-group">

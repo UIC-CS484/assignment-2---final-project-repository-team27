@@ -1,4 +1,4 @@
-const lib = require("../public/javascripts/data_users.js");
+const lib = require("../modules/users_data.js");
 
 const LocalStrategy = require('passport-local').Strategy;
 // let users = require('../public/data/users.json');

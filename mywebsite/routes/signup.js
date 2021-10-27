@@ -1,28 +1,8 @@
 var express = require('express');
 var router = express.Router();
 const bcrypt = require('bcrypt');
-const userLib = require("../public/javascripts/data_users.js");
-const pwdLib = require("../public/javascripts/password_schema.js")
-
-function statExists(checkPath) {
-  return new Promise((resolve) => {
-    fs.stat(checkPath, (err, result) => {
-      if (err) {
-        return resolve(undefined);
-      }
-
-      return resolve(result);
-    });
-  });
-}
-
-function checkAccess(checkPath, mode) {
-  return new Promise((resolve) => {
-    fs.access(checkPath, mode, (err) => {
-      resolve(!err);
-    });
-  });
-}
+const userLib = require("../modules/users_data.js");
+const pwdLib = require("../modules/password_schema.js")
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -42,10 +22,11 @@ router.post('/', async function(req, res, next) {
     //   const failed_validations = passwordSchema.validate(password, {list: true});
     //   failed_validations
     // }
+
     const errors = pwdLib.validatePassword(password, true);
     if (errors.length != 0) {
-      console.log(errors);
-      return res.render('signup', { signup: false, errors: errors });
+      // console.log(errors);
+      return res.render('signup', { pwderrors: errors });
     }
     // console.log(errors);
 

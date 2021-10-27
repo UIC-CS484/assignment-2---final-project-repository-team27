@@ -1,5 +1,5 @@
 
-let users = require('../data/users.json');
+let users = require('../public/data/users.json');
 const fs = require('fs');
 
 const getUserByEmail = (email) => {

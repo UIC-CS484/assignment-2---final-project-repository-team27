@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const lib = require("../public/javascripts/data_users.js");
+const lib = require("../modules/users_data.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

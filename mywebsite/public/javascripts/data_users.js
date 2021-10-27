@@ -6,9 +6,31 @@ const getUserByEmail = (email) => {
     // console.log(users);
     return users.find(user => user.email === email);
 }
+
 const getUserById = (id) => {
     return users.find(user => user.id === id);
 }
+
+function statExists(checkPath) {
+  return new Promise((resolve) => {
+    fs.stat(checkPath, (err, result) => {
+      if (err) {
+        return resolve(undefined);
+      }
+
+      return resolve(result);
+    });
+  });
+}
+
+function checkAccess(checkPath, mode) {
+  return new Promise((resolve) => {
+    fs.access(checkPath, mode, (err) => {
+      resolve(!err);
+    });
+  });
+}
+
 const addUser = (fname, lname, email, hashedPassword) => {
     users.push({
       id: Date.now().toString(),

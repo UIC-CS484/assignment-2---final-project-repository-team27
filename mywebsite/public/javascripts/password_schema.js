@@ -23,10 +23,10 @@ passwordSchema
 const passwordSchemaErrors = {
   'min': 'Minimum password length is ' + minPasswordLength + ' characters',
   'max': 'Maximum password length is ' + maxPasswordLength + ' characters',
-  'uppercase': 'Password should inclust at least ' + minUppercase + ' uppercase letter',
-  'lowercase': 'Password should inclust at least ' + minLowercase + ' lowercase letter',
-  'digits': 'Password should inclust at least ' + minDigits + ' digit',
-  'symbols': 'Password should inclust at least ' + minSymbols + ' symbol',
+  'uppercase': 'Password should include at least ' + minUppercase + ' uppercase letter',
+  'lowercase': 'Password should include at least ' + minLowercase + ' lowercase letter',
+  'digits': 'Password should include at least ' + minDigits + ' digit',
+  'symbols': 'Password should include at least ' + minSymbols + ' symbol',
   'spaces': 'Password can not include spaces'
 }
 

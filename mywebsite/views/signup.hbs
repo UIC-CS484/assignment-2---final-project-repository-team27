@@ -6,35 +6,42 @@
 <p>Please login</p>
 <a href='/login'>Login</a>
 {{else}}
-{{#if errors}}
-{{#each errors}}
-<div class="alert alert-danger">{{this}}</div>
-{{/each}}
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
 {{/if}}
 {{!-- oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Password does not match" : false)' --}}
 <form id='signup-form' class="form-signin needs-validation" action="/signup" method='POST' >
   <div class="form-group">
     <label for="fname">First Name</label><br>
     <input type="text" class="form-control" id="fname" name="fname" required><br>
+    <span class="help-block alert-danger has-warning">{{fname_error}}</span>
   </div>
   <div class="form-group">
     <label for="lname">Last Name</label><br>
     <input type="text" class="form-control" required id="lname" name="lname"><br>
+    <span class="help-block alert-danger has-warning">{{lname_error}}</span>
   </div>
   <div class="form-group">
     <label for="email">Email</label><br>
-    <input type="email" class="form-control" required id="email" name="email"><br>
+    <input type="email" class="form-control " required id="email" name="email"><br>
+    <span class="help-block alert-danger has-warning">{{email_error}}</span>
   </div>
 {{!--   <div class="form-group">
     <label for="username">Username</label><br>
     <input type="text" class="form-control" id="username" name="username"><br>
   </div> --}}
   <div class="form-group">
-    <label for="pwd">Password</label>
-    <input type="password" autocomplete="off" required class="form-control" id="pwd" name="password">
+    <label for="password">Password</label>
+    <input type="password" autocomplete="off" required class="form-control" id="password" name="password" minLength='5' maxLength='100'>
+    <span class="help-block alert-danger has-warning"></span>
   </div>
+  {{#if pwderrors}}
+  {{#each pwderrors}}
+  <span class="help-block alert-danger has-warning">{{this}}</span>
+  {{/each}}
+  {{/if}}
   <div class="form-group">
-    <label for="pwd">Confirm Password</label>
+    <label for="confirmPassword">Confirm Password</label>
     <input type="password" autocomplete="off" required class="form-control" id="confirmPassword" name="confirmPassword">
   </div>
   <button id='signupbtn' type="submit" class="btn btn-default">Sign up</button>

@@ -7,14 +7,14 @@ router.get('/', function(req, res, next) {
     console.log("user", req.user);
     // console.log(req.app.get('email'));
     console.log("authenticated, ", req.isAuthenticated());
-    const user = lib.getUserById(req.user['id']);
 
     if (!req.isAuthenticated()) {
         // If user is not logged in then redirect to login page
-        res.redirect('/login')
+        return res.redirect('/login')
     }
+    const user = lib.getUserById(req.user['id']);
     // console.log(req.app.get('email'))
-  res.render('user', { title: 'MyWebsite', fname: user['fname'],
+  return res.render('user', { title: 'MyWebsite', fname: user['fname'],
     lname: user['lname'], email: user['email'] });
 });
 

@@ -1,4 +1,6 @@
 
+// Validating the password
+
 const minPasswordLength = 5;
 const maxPasswordLength = 100;
 const minUppercase = 1;

@@ -1,4 +1,6 @@
 
+// To get/add users to database/json file
+
 let users = require('../public/data/users.json');
 const fs = require('fs');
 

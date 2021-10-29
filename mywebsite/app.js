@@ -8,8 +8,8 @@ const passport = require('passport');
 const flash = require('flash');
 const bcrypt = require('bcrypt')
 var passwordValidator = require('password-validator');
- 
- 
+const emailValidator = require("email-validator");
+
 
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
@@ -20,6 +20,9 @@ var userRouter = require('./routes/user');
 
 var app = express();
 require('./config/passport')(passport);
+// Set the production env
+app.set('env', 'production');
+
 // const initializePassport = require('./config/passport')
 // initializePassport(
 //   passport,

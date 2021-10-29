@@ -3,6 +3,7 @@ var router = express.Router();
 const bcrypt = require('bcrypt');
 const userLib = require("../modules/users_data.js");
 const pwdLib = require("../modules/password_schema.js")
+const emailValidator = require("email-validator");
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -18,21 +19,22 @@ router.post('/', async function(req, res, next) {
     const email = req.body.email;
     const password = req.body.password;
 
-    // if (req.app.get('env') !== 'development' && !passwordSchema.validate(password)) {
-    //   const failed_validations = passwordSchema.validate(password, {list: true});
-    //   failed_validations
-    // }
+    if (req.app.get('env') === 'production') {
+        if (!emailValidator.validate(email)) {
+          return res.render('signup', { email_error: "Email address is not valid" });
+        }
 
-    const errors = pwdLib.validatePassword(password, true);
-    if (errors.length != 0) {
-      // console.log(errors);
-      return res.render('signup', { pwderrors: errors });
-    }
-    // console.log(errors);
+        const errors = pwdLib.validatePassword(password, true);
+        if (errors.length != 0) {
+          // console.log(errors);
+          return res.render('signup', { pwderrors: errors });
+        }
+        // console.log(errors);
 
-    const user = userLib.getUserByEmail(email);
-    if (user != null) {
-        return res.render('signup', { error: 'User already exists. Please login.' });
+        const user = userLib.getUserByEmail(email);
+        if (user != null) {
+            return res.render('signup', { error: 'User already exists. Please login.' });
+        }
     }
     // console.log(users);
     const hashedPassword = await bcrypt.hash(req.body.password, 10);

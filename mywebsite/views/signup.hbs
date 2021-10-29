@@ -6,25 +6,27 @@
 <p>Please login</p>
 <a href='/login'>Login</a>
 {{else}}
-{{#if error}}
-<div class="alert alert-danger">{{error}}</div>
+ {{#if error}}
+<span class="help-block alert-danger has-warning">{{error}}</span>
 {{/if}}
+
 {{!-- oninput='confirmPassword.setCustomValidity(confirmPassword.value != password.value ? "Password does not match" : false)' --}}
 <form id='signup-form' class="form-signin needs-validation" action="/signup" method='POST' >
   <div class="form-group">
     <label for="fname">First Name</label><br>
-    <input type="text" class="form-control" id="fname" name="fname" required><br>
+    <input type="text" class="form-control" value="{{fname}}" id="fname" name="fname" required><br>
     <span class="help-block alert-danger has-warning">{{fname_error}}</span>
   </div>
   <div class="form-group">
     <label for="lname">Last Name</label><br>
-    <input type="text" class="form-control" required id="lname" name="lname"><br>
+    <input type="text" class="form-control" value="{{lname}}" required id="lname" name="lname"><br>
     <span class="help-block alert-danger has-warning">{{lname_error}}</span>
   </div>
   <div class="form-group">
     <label for="email">Email</label><br>
-    <input type="email" class="form-control " required id="email" name="email"><br>
+    <input type="email" class="form-control" value="{{email}}" required id="email" name="email"><br>
     <span class="help-block alert-danger has-warning">{{email_error}}</span>
+    <span class="help-block alert-danger has-warning">{{exists_error}}</span>
   </div>
 {{!--   <div class="form-group">
     <label for="username">Username</label><br>

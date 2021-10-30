@@ -45,5 +45,25 @@ const addUser = (fname, lname, email, hashedPassword) => {
         if (err) {  console.error(err);  return; };
     });
 }
+var helper = {
+ // Remove and return the first occurrence
 
-module.exports = {getUserByEmail, getUserById, addUser};
+ remove: function(array, predicate) {
+  for (var i = 0; i < array.length; i++) {
+   if (predicate(array[i])) {
+    return array.splice(i, 1);
+   }
+  }
+ }
+}
+
+const deactivateUser = (userid) => {
+  // const user = getUserById(userid);
+  var removed = helper.remove(users, user => user.id === userid );
+  // var removed = helper.remove(arr, row => row.id === 5 );
+  fs.writeFileSync("./public/data/users.json", JSON.stringify(users, null, 4), (err) => {
+        if (err) {  console.error(err);  return; };
+  });
+}
+
+module.exports = {getUserByEmail, getUserById, addUser, deactivateUser};

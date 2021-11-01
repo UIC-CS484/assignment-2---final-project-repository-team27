@@ -1,0 +1,33 @@
+<body class="d-flex h-100 text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<h2>Edit settings</h2>
+
+
+{{#if error}}
+<span class="help-block alert-danger has-warning">{{error}}</span>
+{{/if}}
+
+<form id='user-edit-form' class="form-signin needs-validation" action="/user/edit" method='POST' >
+  <div class="form-group">
+    <label for="fname">First Name</label><br>
+    <input type="text" class="form-control" value="{{fname}}" id="fname" name="fname" required><br>
+    <span class="help-block alert-danger has-warning">{{fname_error}}</span>
+  </div>
+  <div class="form-group">
+    <label for="lname">Last Name</label><br>
+    <input type="text" class="form-control" value="{{lname}}" required id="lname" name="lname"><br>
+    <span class="help-block alert-danger has-warning">{{lname_error}}</span>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label><br>
+    <input type="text" class="form-control" value="{{email}}" required id="email" name="email"><br>
+    <span class="help-block alert-danger has-warning">{{email_error}}</span>
+    <span class="help-block alert-danger has-warning">{{exists_error}}</span>
+  </div>
+  <button type="submit" class="btn btn-dark">Submit</button>
+  {{!-- <button id='signupbtn' type="submit" class="btn btn-default">Submit</button> --}}
+  <a href="/user"><button type="button" class="btn btn-dark">Cancel</button></a>
+</form>
+
+</div>
+</body>

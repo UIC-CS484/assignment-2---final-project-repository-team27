@@ -45,6 +45,7 @@ const addUser = (fname, lname, email, hashedPassword) => {
         if (err) {  console.error(err);  return; };
     });
 }
+
 var helper = {
  // Remove and return the first occurrence
 
@@ -57,6 +58,23 @@ var helper = {
  }
 }
 
+const updateUser = (userid, fname, lname, email) => {
+  var user = getUserById(userid);
+  var new_user = {
+      id: userid,
+      fname: fname,
+      lname: lname,
+      email: email,
+      password: user['hashedPassword']
+    }
+  var removed = helper.remove(users, user => user.id === userid );
+  users.push(new_user);
+  fs.writeFileSync("./public/data/users.json", JSON.stringify(users, null, 4), (err) => {
+        if (err) {  console.error(err);  return; };
+  });
+
+}
+
 const deactivateUser = (userid) => {
   // const user = getUserById(userid);
   var removed = helper.remove(users, user => user.id === userid );
@@ -66,4 +84,4 @@ const deactivateUser = (userid) => {
   });
 }
 
-module.exports = {getUserByEmail, getUserById, addUser, deactivateUser};
+module.exports = {getUserByEmail, getUserById, addUser, deactivateUser, updateUser};

@@ -18,7 +18,7 @@ var loginRouter = require('./routes/login');
 var userRouter = require('./routes/user');
 var logoutRouter = require('./routes/logout');
 var deactivateRouter = require('./routes/deactivate');
-
+var userEditRouter = require('./routes/user_edit');
 
 var app = express();
 require('./config/passport')(passport);
@@ -65,6 +65,7 @@ app.use('/login', loginRouter);
 app.use('/user', userRouter);
 app.use('/logout', logoutRouter);
 app.use('/deactivate', deactivateRouter);
+app.use('/user/edit', userEditRouter);
 // app.use('/loginSubmit', loginSubmitRouter);
 
 // catch 404 and forward to error handler

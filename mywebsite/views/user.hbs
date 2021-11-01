@@ -1,9 +1,13 @@
-<h1>{{title}}</h1>
-<h2>User Account Page</h2>
-<p>Welcome to {{title}}</p>
-<p>Firstname {{fname}}</p>
-<p>Lastname {{lname}}</p>
-<p>Email {{email}}</p>
+{{!-- <h1>{{title}}</h1> --}}
+<body class="d-flex h-100 text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<h2>Your Account settings</h2>
+<p>Firstname: {{fname}}</p>
+<p>Lastname: {{lname}}</p>
+<p>Email: {{email}}</p>
 {{!--  --}}
-<a href="/logout"><button type="button" class="btn btn-dark">Logout</button></a>
+<a href="/user/edit"><button type="button" class="btn btn-dark">Edit settings</button></a> <br>
+<a href="/logout"><button type="button" class="btn btn-dark">Logout</button></a> <br>
 <a href="/deactivate"><button type="button" class="btn btn-dark">Deactivate Account</button></a>
+</div>
+</body>

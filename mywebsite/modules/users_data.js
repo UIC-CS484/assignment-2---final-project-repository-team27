@@ -65,7 +65,7 @@ const updateUser = (userid, fname, lname, email) => {
       fname: fname,
       lname: lname,
       email: email,
-      password: user['hashedPassword']
+      password: user['password']
     }
   var removed = helper.remove(users, user => user.id === userid );
   users.push(new_user);

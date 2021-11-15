@@ -1,3 +1,6 @@
+## Ignore API credentials
+cred.json
+
 # Source: https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
 logs

@@ -10,5 +10,5 @@ const validateNewUser = (fname, lname, email, report_errors=false) => {
     return passwordSchema.validate(password);
 }
 
-module.exports = {validatePassword};
+module.exports = {validateNewUser};
 

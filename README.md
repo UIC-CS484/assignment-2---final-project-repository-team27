@@ -1,4 +1,5 @@
 
+
 ## Details
 - **Course**: CS484: Secure Web Development
 - **Team**: 27
@@ -12,7 +13,7 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 ## Project Details
 
 #### Unit tests
-
+Using Jest.js framework the unit tests are implemented in project. The `test_modules` directory contains all the test files. The `password.test.js` file runs different tests for password validation in file `modules/password_schema.js`
 
 #### Development tools
 - git

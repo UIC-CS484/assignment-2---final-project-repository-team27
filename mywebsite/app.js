@@ -10,7 +10,9 @@ const bcrypt = require('bcrypt')
 var passwordValidator = require('password-validator');
 const emailValidator = require("email-validator");
 require('dotenv').config();
+var mysql = require('mysql2');
 
+require('./modules/mysql_con');
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var loginRouter = require('./routes/login');

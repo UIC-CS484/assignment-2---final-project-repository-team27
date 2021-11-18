@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const lib = require("../modules/users_data.js");
+// const tlib = require("../modules/twitter.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -14,8 +15,9 @@ router.get('/', function(req, res, next) {
     }
     const user = lib.getUserById(req.user['id']);
     // console.log(req.app.get('email'))
+    // const twitter_data = await tlib.getTweets('yashashvi_dave');
   return res.render('user', { title: 'MyWebsite', fname: user['fname'],
-    lname: user['lname'], email: user['email'] });
+    lname: user['lname'], email: user['email'], twitter_embedding: user['twitter']});
 });
 
 module.exports = router;

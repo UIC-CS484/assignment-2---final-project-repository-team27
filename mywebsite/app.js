@@ -9,7 +9,6 @@ const flash = require('flash');
 const bcrypt = require('bcrypt')
 var passwordValidator = require('password-validator');
 const emailValidator = require("email-validator");
-const twitter = require('twitter-api-client');
 require('dotenv').config();
 
 var indexRouter = require('./routes/index');

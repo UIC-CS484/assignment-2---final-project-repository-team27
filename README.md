@@ -1,5 +1,4 @@
 
-
 ## Details
 - **Course**: CS484: Secure Web Development
 - **Team**: 27
@@ -11,6 +10,15 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 
 ## Project Details
+
+#### Twitter API Integration
+This project integrates the Twitter API. To use Twitter API, 
+1. Create the developer account as described [here](https://developer.twitter.com/en/apply-for-access). 
+2. Create project and app in https://developer.twitter.com/
+3. Get the credentials of your Twitter API
+4. Add these credentials in environment. You can add values in `env` file and save it as `.env`
+5. Add API token values to `.env` file from the app created in above steps
+
 
 #### Unit tests
 Using Jest.js framework the unit tests are implemented in project. The `test_modules` directory contains all the test files. The `password.test.js` file runs different tests for password validation in file `modules/password_schema.js`

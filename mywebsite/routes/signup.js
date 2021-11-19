@@ -43,11 +43,12 @@ router.post('/', async function(req, res, next) {
         if (errors.length != 0) {
           // console.log(errors);
           // return res.render('signup', { pwderrors: errors });
+          // console.log(typeof errors);
             signup_errors.set('pwderrors', errors);
         }
         // console.log(errors);
 
-        const user = userLib.getUserByEmail(email);
+        const user = await userLib.getUserByEmail(email);
         if (user != null) {
             signup_errors.set('exists_error', "Email adress is already exists. Please login.");
             // return res.render('signup', { error: 'User already exists. Please login.' });
@@ -61,12 +62,18 @@ router.post('/', async function(req, res, next) {
             let signup_errors_obj = Array.from(signup_errors).reduce((obj, [key, value]) => (
               Object.assign(obj, { [key]: value }) 
             ), {});
+          // console.log(typeof signup_errors_obj);
+          // console.log(typeof signup_errors_obj['pwderrors']);
+          // console.log(signup_errors_obj['pwderrors']);
+          // console.log(signup_errors_obj['pwderrors'][0]);
+          // console.log(typeof signup_errors_obj['pwderrors'][0]);
+
             return res.render('signup', signup_errors_obj);
         }
     }
     // console.log(users);
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
-    userLib.addUser(req.body.fname, req.body.lname, req.body.email, hashedPassword);
+    await userLib.addUser(req.body.fname, req.body.lname, req.body.email, hashedPassword);
 
   return res.render('signup', { signup: true });
 });

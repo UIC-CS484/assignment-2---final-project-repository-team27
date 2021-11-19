@@ -4,23 +4,23 @@ const userLib = require("../modules/users_data.js");
 const emailValidator = require("email-validator");
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', async function(req, res, next) {
     if (!req.isAuthenticated()) {
         // If user is not logged in then redirect to login page
         return res.redirect('/login')
     }
-    const user = userLib.getUserById(req.user['id']);
+    const user = await userLib.getUserById(req.user['id']);
 
     return res.render('user_edit', {
       fname: user['fname'], lname: user['lname'], email: user['email']});
 });
 
-router.post('/', function (req, res, next) {
+router.post('/', async function (req, res, next) {
     if (!req.isAuthenticated()) {
         // If user is not logged in then redirect to login page
         return res.redirect('/login')
     }
-    const user = userLib.getUserById(req.user['id']);
+    const user = await userLib.getUserById(req.user['id']);
 
     if (user === null) {
         return res.render('user_edit', {error: 'User do not exist'});
@@ -62,7 +62,7 @@ router.post('/', function (req, res, next) {
         }
     }
     // console.log(users);
-    userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email);
+    await userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email);
 
   return res.redirect('/user');
 

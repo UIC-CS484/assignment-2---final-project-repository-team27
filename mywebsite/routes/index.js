@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var mysqlcon = require('../modules/mysql_con.js')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

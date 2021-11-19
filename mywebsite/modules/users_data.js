@@ -3,14 +3,16 @@
 
 let users = require('../public/data/users.json');
 const fs = require('fs');
+var mysqlcon = require('../modules/mysql_con.js')
 
-const getUserByEmail = (email) => {
-    // console.log(users);
-    return users.find(user => user.email === email);
+const getUserByEmail = async (email) => {
+  var user = await mysqlcon.select_user_email(email);
+  // console.log("10", user);
+  return user;
 }
 
-const getUserById = (id) => {
-    return users.find(user => user.id === id);
+const getUserById = async (id) => {
+  return await mysqlcon.select_user_id(id);
 }
 
 function statExists(checkPath) {
@@ -33,17 +35,8 @@ function checkAccess(checkPath, mode) {
   });
 }
 
-const addUser = (fname, lname, email, hashedPassword) => {
-    users.push({
-      id: Date.now().toString(),
-      fname: fname,
-      lname: lname,
-      email: email,
-      password: hashedPassword
-    });
-    fs.writeFileSync("./public/data/users.json", JSON.stringify(users, null, 4), (err) => {
-        if (err) {  console.error(err);  return; };
-    });
+const addUser = async (fname, lname, email, hashedPassword) => {
+    await mysqlcon.insert_user(fname, lname, email, hashedPassword);
 }
 
 var helper = {
@@ -58,30 +51,12 @@ var helper = {
  }
 }
 
-const updateUser = (userid, fname, lname, email) => {
-  var user = getUserById(userid);
-  var new_user = {
-      id: userid,
-      fname: fname,
-      lname: lname,
-      email: email,
-      password: user['password']
-    }
-  var removed = helper.remove(users, user => user.id === userid );
-  users.push(new_user);
-  fs.writeFileSync("./public/data/users.json", JSON.stringify(users, null, 4), (err) => {
-        if (err) {  console.error(err);  return; };
-  });
-
+const updateUser = async (userid, fname, lname, email) => {
+  await mysqlcon.update_user(userid, fname, lname, email, '');
 }
 
-const deactivateUser = (userid) => {
-  // const user = getUserById(userid);
-  var removed = helper.remove(users, user => user.id === userid );
-  // var removed = helper.remove(arr, row => row.id === 5 );
-  fs.writeFileSync("./public/data/users.json", JSON.stringify(users, null, 4), (err) => {
-        if (err) {  console.error(err);  return; };
-  });
+const deactivateUser = async (userid) => {
+  await mysqlcon.delete_user(userid);
 }
 
 module.exports = {getUserByEmail, getUserById, addUser, deactivateUser, updateUser};

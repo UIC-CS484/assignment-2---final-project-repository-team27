@@ -4,7 +4,7 @@ const lib = require("../modules/users_data.js");
 // const tlib = require("../modules/twitter.js");
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', async function(req, res, next) {
     console.log("user", req.user);
     // console.log(req.app.get('email'));
     console.log("authenticated, ", req.isAuthenticated());
@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
         // If user is not logged in then redirect to login page
         return res.redirect('/login')
     }
-    const user = lib.getUserById(req.user['id']);
+    const user = await lib.getUserById(req.user['id']);
     // console.log(req.app.get('email'))
     // const twitter_data = await tlib.getTweets('yashashvi_dave');
   return res.render('user', { title: 'MyWebsite', fname: user['fname'],

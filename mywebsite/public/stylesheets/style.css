@@ -31,3 +31,8 @@ span.help-block:not(:empty) {
 .mt-auto {
     margin-top: auto!important;
 }
+
+iframe {
+    max-width: 50%!important;
+    max-height: 1000px;
+}

@@ -62,7 +62,8 @@ router.post('/', async function (req, res, next) {
         }
     }
     // console.log(users);
-    await userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email);
+    // console.log(req.body, req.body.twitter)
+    await userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email, req.body.twitter);
 
   return res.redirect('/user');
 

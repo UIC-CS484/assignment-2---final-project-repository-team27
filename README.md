@@ -14,9 +14,9 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 #### Connecting with SQL
 
-![ER Diagram of Database](mywebsite/public/data/ERDiagram.png "ER Diagram")
+![ER Diagram of Database](mywebsite/database/ERDiagram.png "ER Diagram")
 
-
+The Database file is stored as `mywebsite/database/portfolio.db`. You can import database in DB Browser using this file. You can also create database in any other tools using `mywebsite/database/db.sql` file. 
 
 #### Twitter API Integration
 This project integrates the Twitter API. To use Twitter API, 

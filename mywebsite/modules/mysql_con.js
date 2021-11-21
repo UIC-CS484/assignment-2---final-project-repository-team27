@@ -16,7 +16,12 @@ var pool = mysql.createPool({
     debug    : false 
  })
 
-const user_table_name = 'Users';
+const user_table_name = 'user';
+const social_table_name = 'social';
+const education_table_name = 'education';
+const experience_table_name = 'experience';
+
+
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
@@ -57,29 +62,31 @@ function getResult(query, callback) {
 
 const insert_user = async (fname, lname, email, hashedPassword) => {
   try {
-    var sql = `INSERT INTO ${user_table_name} (fname, lname, email, password) VALUES ('${fname}', '${lname}', '${email}', '${hashedPassword}')`;
-    const rows = await query(sql);
+    var params = [fname, lname, email, hashedPassword];
+    var sql = `INSERT INTO ${user_table_name} (fname, lname, email, password) VALUES (?, ?, ?, ?)`;
+    const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {
   }
 }
 
-const select_user_email_old = (email) => {
-    var sql = `select * from ${user_table_name} where email='${email}'`;
-    getResult(sql, function(err, rows){
-        console.log("74", rows);    
-        if(!err){
-            if (rows) return rows[0];
-        }else{
-            console.log(err);
-        }
-    });   
-}
+// const select_user_email_old = (email) => {
+//     var sql = `select * from ${user_table_name} where email='${email}'`;
+//     getResult(sql, function(err, rows){
+//         console.log("74", rows);    
+//         if(!err){
+//             if (rows) return rows[0];
+//         }else{
+//             console.log(err);
+//         }
+//     });   
+// }
 
 const select_user_email = async (email) => {
   try {
-    var sql = `select * from ${user_table_name} where email='${email}'`;
-    const rows = await query(sql);
+    var params = [email];
+    var sql = `select * from ${user_table_name} where email=?`;
+    const rows = await query(sql, params);
     console.log("82", rows);
     if (rows) return rows[0];
   } finally {
@@ -88,17 +95,19 @@ const select_user_email = async (email) => {
 
 const select_user_id = async (uid) => {
   try {
-    var sql = `select * from ${user_table_name} where id=${uid}`;
-    const rows = await query(sql);
+    var params = [uid];
+    var sql = `select * from ${user_table_name} where id=?`;
+    const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {
   }
 }
 
-const update_user = async (uid, fname, lname, email, twitter) => {
+const update_user = async (uid, fname, lname, email) => {
   try {
-    var sql = `UPDATE ${user_table_name} SET fname='${fname}', lname='${lname}', email='${email}', twitter='${twitter}' where id=${uid}`;
-    const rows = await query(sql);
+    var params = [fname, lname, email, uid];
+    var sql = `UPDATE ${user_table_name} SET fname=?, lname=?, email=? where id=?`;
+    const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {
   }
@@ -106,8 +115,9 @@ const update_user = async (uid, fname, lname, email, twitter) => {
 
 const delete_user = async (uid) => {
   try {
-    var sql = `DELETE from ${user_table_name} where id=${uid}`;
-    const rows = await query(sql);
+    var params = [uid];
+    var sql = `DELETE from ${user_table_name} where id=?`;
+    const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {
   }

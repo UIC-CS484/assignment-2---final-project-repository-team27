@@ -52,7 +52,7 @@ var helper = {
 }
 
 const updateUser = async (userid, fname, lname, email, twitter) => {
-  await mysqlcon.update_user(userid, fname, lname, email, twitter);
+  await mysqlcon.update_user(userid, fname, lname, email);
 }
 
 const deactivateUser = async (userid) => {

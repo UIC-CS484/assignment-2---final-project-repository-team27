@@ -1,0 +1,36 @@
+<body class="d-flex h-100 text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<h2>Add social</h2>
+
+
+{{#if error}}
+<span class="help-block alert-danger has-warning">{{error}}</span>
+{{/if}}
+
+<form id='add-social-form' class="form-signin needs-validation" action="/user/add-social" method='POST' >
+  <div class="form-group">
+    <label for="twitter">Twitter username</label><br>
+    <input type="text" class="form-control" value="{{twitter}}" id="twitter" name="twitter" required><br>
+    <span class="help-block alert-danger has-warning">{{twitter_error}}</span>
+  </div>
+  <div class="form-group">
+    <label for="github">GitHub username</label><br>
+    <input type="text" class="form-control" value="{{github}}" id="github" name="github" required><br>
+    <span class="help-block alert-danger has-warning">{{github_error}}</span>
+  </div>
+  <div class="form-group">
+    <label for="linkedin">LinkedIn username</label><br>
+    <input type="text" class="form-control" value="{{linkedin}}" id="linkedin" name="linkedin" required><br>
+    <span class="help-block alert-danger has-warning">{{linkedin_error}}</span>
+  </div>
+  <div class="form-group">
+    <label for="twitter_embedding">Twitter Embedding Link</label><br>
+    <input type="text" class="form-control" value="{{twitter_embedding}}" required id="twitter_embedding" name="twitter_embedding"><br>
+    <p>Get your Twitter Publish Link from <a href="https://publish.twitter.com/#">this<a> page</p>
+  </div>
+  <button type="submit" class="btn btn-dark">Submit</button>
+  <a href="/user"><button type="button" class="btn btn-dark">Cancel</button></a>
+</form>
+
+</div>
+</body>

@@ -87,7 +87,7 @@ const select_user_email = async (email) => {
     var params = [email];
     var sql = `select * from ${user_table_name} where email=?`;
     const rows = await query(sql, params);
-    console.log("82", rows);
+    // console.log("82", rows);
     if (rows) return rows[0];
   } finally {
   }
@@ -123,6 +123,51 @@ const delete_user = async (uid) => {
   }
 }
 
-module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user}
+
+const select_social_uid = async (uid) => {
+  try {
+    var params = [uid];
+    var sql = `select * from ${social_table_name} where uid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const select_social_id = async (sid) => {
+  try {
+    var params = [sid];
+    var sql = `select * from ${social_table_name} where sid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
+const insert_social = async (uid, t, g, l, te) => {
+  try {
+    var params = [uid, t, g, l, te];
+    var sql = `INSERT INTO ${social_table_name} (uid, twitter, github, linkedin, twitter_embedding) VALUES (?, ?, ?, ?, ?)`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const update_social = async (sid, t, g, l, te) => {
+  try {
+    var params = [t, g, l, te, sid];
+    // console.log(params);
+    var sql = `UPDATE ${social_table_name} SET twitter=?, github=?, linkedin=?, twitter_embedding=? where sid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
+module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user,
+select_social_uid, select_social_id, insert_social, update_social}
 
 

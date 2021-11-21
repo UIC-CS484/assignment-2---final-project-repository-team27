@@ -51,7 +51,7 @@ var helper = {
  }
 }
 
-const updateUser = async (userid, fname, lname, email, twitter) => {
+const updateUser = async (userid, fname, lname, email) => {
   await mysqlcon.update_user(userid, fname, lname, email);
 }
 

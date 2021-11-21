@@ -1,4 +1,5 @@
 
+
 ## Details
 - **Course**: CS484: Secure Web Development
 - **Team**: 27
@@ -10,6 +11,12 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 
 ## Project Details
+
+#### Connecting with SQL
+
+![ER Diagram of Database](mywebsite/public/data/ERDiagram.png "ER Diagram")
+
+
 
 #### Twitter API Integration
 This project integrates the Twitter API. To use Twitter API, 

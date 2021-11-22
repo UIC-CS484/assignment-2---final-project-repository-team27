@@ -11,6 +11,7 @@ var passwordValidator = require('password-validator');
 const emailValidator = require("email-validator");
 require('dotenv').config();
 var mysql = require('mysql2');
+var github = require('github-api');
 
 require('./modules/mysql_con');
 var indexRouter = require('./routes/index');

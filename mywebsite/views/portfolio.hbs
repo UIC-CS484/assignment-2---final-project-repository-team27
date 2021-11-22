@@ -6,8 +6,8 @@
   <header class="mb-auto">
     <div>
       {{!-- <h3 class="float-md-start mb-0">Portfolio Page</h3> --}}
-      <h2 class="lead">{{fname}} {{lname}}</h2>
-      <p>{{email}}</p>
+      <h1>{{fname}} {{lname}}</h1>
+      <h3>{{email}}</h3>
     </div>
   </header>
 
@@ -15,10 +15,15 @@
       <p class="lead">Twitter: <a href="http://twitter.com/{{twitter}}">{{twitter}}</a></p>
       <p class="lead">GitHub: <a href="http://github.com/{{github}}">{{github}}</a></p>
       <p class="lead">Linkedin: <a href="http://linkedin.com/in/{{linkedin}}">{{linkedin}}</a></p>
-    {{{twitter_embedding}}}
-    }
   </main>
+    <h3>Projects:</h3>
+    {{#each github_repos}}
+    <p class="lead"><a href="{{this.html_url}}">{{this.name}}</a></p>
+    <p>Created at {{this.created_at}} Forks: {{this.forks_count}} Stars: {{this.stargazers_count}}<p>
+    <p>{{this.description}}</p>
+    {{/each}}
 
+  {{{twitter_embedding}}}
   <footer class="mt-auto">
     <p>Project part of CS484 by Prof. Chris Fulton at University of Illinois at Chicago</p>
   </footer>

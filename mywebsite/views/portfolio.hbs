@@ -1,0 +1,28 @@
+<body class="d-flex h-100 text-white bg-dark">
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      {{!-- <h3 class="float-md-start mb-0">Portfolio Page</h3> --}}
+      <h2 class="lead">{{fname}} {{lname}}</h2>
+      <p>{{email}}</p>
+    </div>
+  </header>
+
+  <main>
+      <p class="lead">Twitter: <a href="http://twitter.com/{{twitter}}">{{twitter}}</a></p>
+      <p class="lead">GitHub: <a href="http://github.com/{{github}}">{{github}}</a></p>
+      <p class="lead">Linkedin: <a href="http://linkedin.com/in/{{linkedin}}">{{linkedin}}</a></p>
+    {{{twitter_embedding}}}
+    }
+  </main>
+
+  <footer class="mt-auto">
+    <p>Project part of CS484 by Prof. Chris Fulton at University of Illinois at Chicago</p>
+  </footer>
+</div>
+
+</body>
+  

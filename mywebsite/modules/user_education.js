@@ -1,0 +1,25 @@
+
+// To get/add users Education to database/json file
+
+var mysqlcon = require('../modules/mysql_con.js')
+
+const getEducationByUserId = async (uid) => {
+  var edu = await mysqlcon.select_education_uid(uid);
+  // console.log("10", user);
+  // console.log("9", Education);
+  return edu;
+}
+
+const getEducationById = async (eid) => {
+  return await mysqlcon.select_education_id(eid);
+}
+
+const addEducation = async (uid, uni, deg, mj, sd, ed) => {
+    await mysqlcon.insert_education(uid, uni, deg, mj, sd, ed);
+}
+
+const updateEducation = async (eid, uni, deg, mj, sd, ed) => {
+  await mysqlcon.update_education(eid, uni, deg, mj, sd, ed);
+}
+
+module.exports = {getEducationByUserId, getEducationById, addEducation, updateEducation};

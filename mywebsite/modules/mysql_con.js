@@ -124,6 +124,8 @@ const delete_user = async (uid) => {
 }
 
 
+// Social
+
 const select_social_uid = async (uid) => {
   try {
     var params = [uid];
@@ -166,8 +168,54 @@ const update_social = async (sid, t, g, l, te) => {
   }
 }
 
+// Education
+
+const select_education_uid = async (uid) => {
+  try {
+    var params = [uid];
+    var sql = `select * from ${education_table_name} where uid=?`;
+    const rows = await query(sql, params);
+    // if (rows) return rows[0];
+    return rows;
+    } finally {
+  }
+}
+
+const select_education_id = async (eid) => {
+  try {
+    var params = [eid];
+    var sql = `select * from ${education_table_name} where eid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
+const insert_education = async (uid, uni, deg, mj, sd, ed) => {
+  try {
+    var params = [uid, uni, deg, mj, sd, ed];
+    var sql = `INSERT INTO ${education_table_name} (uid, university, degree, major, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?)`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const update_education = async (eid, uni, deg, mj, sd, ed) => {
+  try {
+    var params = [uni, deg, mj, sd, ed, eid];
+    // console.log(params);
+    var sql = `UPDATE ${education_table_name} SET university=?, degree=?, major=?, start_date=?, end_date=? where eid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
 
 module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user,
-select_social_uid, select_social_id, insert_social, update_social}
+select_social_uid, select_social_id, insert_social, update_social,
+select_education_uid, select_education_id, insert_education, update_education}
 
 

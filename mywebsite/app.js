@@ -23,6 +23,7 @@ var deactivateRouter = require('./routes/deactivate');
 var userEditRouter = require('./routes/user_edit');
 var addSocialRouter = require('./routes/add_social');
 var userPortfolio = require('./routes/portfolio');
+var addEducationRouter = require('./routes/add_education');
 
 var app = express();
 require('./config/passport')(passport);
@@ -72,6 +73,7 @@ app.use('/deactivate', deactivateRouter);
 app.use('/user/edit', userEditRouter);
 app.use('/user/add-social', addSocialRouter);
 app.use('/user/portfolio', userPortfolio);
+app.use('/user/add-education', addEducationRouter);
 // app.use('/loginSubmit', loginSubmitRouter);
 
 // catch 404 and forward to error handler

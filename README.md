@@ -18,6 +18,15 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 The Database file is stored as `mywebsite/database/portfolio.db`. You can import database in DB Browser using this file. You can also create database in any other tools using `mywebsite/database/db.sql` file. 
 
+
+#### Charting
+We have used [anychart-nodejs](https://www.npmjs.com/package/anychart-nodejs) library for Timeline charts at `/user/portfolio` page.
+
+
+#### GitHub API
+The GitHub RESTFul API is integrated with the application. You can connect your GitHub account by adding "GitHub username" from "Add Social" option on `/user/add-social` form. The GitHub repositories are rendered on portfolio page of given username at `/user/portfolio`
+
+
 #### Twitter API Integration
 This project integrates the Twitter API. To use Twitter API, 
 1. Create the developer account as described [here](https://developer.twitter.com/en/apply-for-access). 

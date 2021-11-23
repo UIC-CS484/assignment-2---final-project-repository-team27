@@ -20,7 +20,10 @@ The Database file is stored as `mywebsite/database/portfolio.db`. You can import
 
 
 #### Charting
-We have used [anychart-nodejs](https://www.npmjs.com/package/anychart-nodejs) library for Timeline charts at `/user/portfolio` page.
+We have used [chart.js](https://www.chartjs.org/docs/latest/) library for GitHub Activity bar chart at `/user/portfolio` page.
+It will render as shown following:
+![GitHub Activity Bar Chart](mywebsite/public/data/gchart.png "GitHub Activity")
+It shows the number of user's activities on GitHub in past month.
 
 
 #### GitHub API
@@ -61,5 +64,9 @@ Project can be divided into following steps:
 4. Dynamic Frontend for data retreived from API
 5. Feature to automatically update website content on update from any API
 6. Test cases
+
+#### References
+https://towardsdatascience.com/create-javascript-gantt-chart-55ff8ec08886
+
 
 

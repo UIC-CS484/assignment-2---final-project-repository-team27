@@ -4,22 +4,22 @@ const userLib = require("../modules/users_data.js");
 const eduLib = require("../modules/user_education.js");
 
 /* GET home page. */
-router.get('/', async function(req, res, next) {
+router.get('/:eid', async function(req, res, next) {
     if (!req.isAuthenticated()) {
         // If user is not logged in then redirect to login page
         return res.redirect('/login')
     }
-    const education = await eduLib.getEducationByUserId(req.user['id']);
+    if (!req.params.eid) {
+        return res.redirect('/user/update-education')
+    }
+    const edu = await eduLib.getEducationById(req.params.eid);
 
-    // console.log("14", social);
-    if (education) {
-        return res.render('add_education', {});
-    } else{
-        return res.render('add_education', {});
+    if (!edu) {
+        return res.redirect('/user/update-education')
     }
 
+    await eduLib.deleteEducation(edu['eid']);
+    return res.redirect('/user/update-education');
 });
-
-
 
 module.exports = router;

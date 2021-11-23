@@ -1,0 +1,17 @@
+<body class="d-flex h-100 text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<h2>Update Education</h2>
+
+    {{#each educations}}
+    <p class="lead">{{this.university}}</p>
+    <p>{{this.degree}} in {{this.major}} from {{this.start_date}} to {{this.end_date}}<p>
+    <a href="/user/update-education/{{this.eid}}"><button type="button" class="btn btn-dark">Update</button></a>
+    <a href="/user/delete-education/{{this.eid}}"><button type="button" class="btn btn-dark">Delete</button></a>
+    {{/each}}
+
+<br>
+<br>
+<a href="/user/add-education"><button type="button" class="btn btn-dark">Add Education</button></a> <br>
+</div>
+
+

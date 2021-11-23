@@ -22,4 +22,8 @@ const updateEducation = async (eid, uni, deg, mj, sd, ed) => {
   await mysqlcon.update_education(eid, uni, deg, mj, sd, ed);
 }
 
-module.exports = {getEducationByUserId, getEducationById, addEducation, updateEducation};
+const deleteEducation = async (eid) => {
+  await mysqlcon.delete_education(eid);
+}
+
+module.exports = {getEducationByUserId, getEducationById, addEducation, updateEducation, deleteEducation};

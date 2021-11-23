@@ -213,9 +213,18 @@ const update_education = async (eid, uni, deg, mj, sd, ed) => {
   }
 }
 
+const delete_education = async (eid) => {
+  try {
+    var params = [eid];
+    var sql = `DELETE from ${education_table_name} where eid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
 
 module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user,
 select_social_uid, select_social_id, insert_social, update_social,
-select_education_uid, select_education_id, insert_education, update_education}
+select_education_uid, select_education_id, insert_education, update_education, delete_education}
 
 

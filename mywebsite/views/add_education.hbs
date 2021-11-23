@@ -7,7 +7,7 @@
 <span class="help-block alert-danger has-warning">{{error}}</span>
 {{/if}}
 
-<form id='add-education-form' class="form-signin needs-validation" action="/user/add-education" method='POST' >
+<form id='add-education-form' class="form-signin needs-validation" action="/user/update-education/{{eid}}" method='POST' >
     <div class="form-group">
     <label for="university">University</label><br>
     <input type="text" class="form-control" value="{{university}}" id="university" name="university" required><br>
@@ -24,17 +24,17 @@
     <span class="help-block alert-danger has-warning">{{major_error}}</span>
   </div>
   <div class="form-group">
-    <label for="start_year">Start year</label><br>
-    <input type="number" class="form-control" value="{{start_year}}" required id="start_year" name="start_year">
-    <span class="help-block alert-danger has-warning">{{start_year_error}}</span>
+    <label for="start_date">Start year</label><br>
+    <input type="number" class="form-control" value="{{start_date}}" required id="start_date" name="start_date">
+    <span class="help-block alert-danger has-warning">{{start_date_error}}</span>
   </div>
   <div class="form-group">
-    <label for="end_year">End year</label><br>
-    <input type="number" class="form-control" value="{{end_year}}" required id="end_year" name="end_year">
-    <span class="help-block alert-danger has-warning">{{end_year_error}}</span>
+    <label for="end_date">End year</label><br>
+    <input type="number" class="form-control" value="{{end_date}}" required id="end_date" name="end_date">
+    <span class="help-block alert-danger has-warning">{{end_date_error}}</span>
   </div>
   <button type="submit" class="btn btn-dark">Submit</button>
-  <a href="/user"><button type="button" class="btn btn-dark">Cancel</button></a>
+  <a href="/user/update-education/"><button type="button" class="btn btn-dark">Cancel</button></a>
 </form>
 
 </div>

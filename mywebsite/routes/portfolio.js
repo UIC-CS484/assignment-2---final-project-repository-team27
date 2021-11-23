@@ -3,6 +3,8 @@ var router = express.Router();
 const userLib = require("../modules/users_data.js");
 const socialLib = require("../modules/user_social.js");
 const githubLib = require("../modules/github.js");
+const eduLib = require("../modules/user_education.js");
+
 
 /* GET home page. */
 router.get('/', async function(req, res, next) {

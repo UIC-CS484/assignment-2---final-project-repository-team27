@@ -3,6 +3,9 @@ CREATE TABLE user (
     fname varchar(100) NOT NULL,
     lname varchar(100) NOT NULL,
     email varchar(320) NOT NULL,
+    phone varchar(15),
+    location varchar(50),
+    tagline varchar(200),
     password varchar(70) NOT NULL
 );
 
@@ -14,6 +17,8 @@ CREATE TABLE social (
     linkedin varchar(100),
     website text,
     twitter_embedding text,
+    insta varchar(100),
+    stack_overflow varchar(100),
     FOREIGN KEY (uid) REFERENCES user (id)
         ON UPDATE CASCADE
         ON DELETE CASCADE
@@ -49,5 +54,26 @@ CREATE TABLE education (
         ON DELETE CASCADE
 );
 
+CREATE TABLE skill (
+    sid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    uid int NOT NULL,
+    name varchar(100) NOT NULL,
+    score int NOT NULL,
+    FOREIGN KEY (uid) REFERENCES user (id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+);
+
+CREATE TABLE award (
+    aid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    uid int NOT NULL,
+    name varchar(100) NOT NULL,
+    year YEAR NOT NULL,
+    org varchar(100),
+    description varchar(250),
+    FOREIGN KEY (uid) REFERENCES user (id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+);
 
 

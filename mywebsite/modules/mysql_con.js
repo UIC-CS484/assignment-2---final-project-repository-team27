@@ -103,10 +103,10 @@ const select_user_id = async (uid) => {
   }
 }
 
-const update_user = async (uid, fname, lname, email) => {
+const update_user = async (uid, fname, lname, email, phone, location, tagline) => {
   try {
-    var params = [fname, lname, email, uid];
-    var sql = `UPDATE ${user_table_name} SET fname=?, lname=?, email=? where id=?`;
+    var params = [fname, lname, email, phone, location, tagline,  uid];
+    var sql = `UPDATE ${user_table_name} SET fname=?, lname=?, email=?, phone=?, location=?, tagline=? where id=?`;
     const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {

@@ -12,7 +12,8 @@ router.get('/', async function(req, res, next) {
     const user = await userLib.getUserById(req.user['id']);
 
     return res.render('user_edit', {
-      fname: user['fname'], lname: user['lname'], email: user['email']});
+      fname: user['fname'], lname: user['lname'], email: user['email'],
+      location: user['location'], phone: user['phone'], tagline: user['tagline']});
 });
 
 router.post('/', async function (req, res, next) {
@@ -29,6 +30,9 @@ router.post('/', async function (req, res, next) {
     const fname = req.body.fname;
     const lname = req.body.lname;
     const email = req.body.email;
+    const location = req.body.fname;
+    const phone = req.body.phone;
+    const tagline = req.body.tagline;
     var signup_errors = new Map();
 
     if (req.app.get('env') === 'production') {
@@ -44,6 +48,8 @@ router.post('/', async function (req, res, next) {
         if (lname.length > 100) {
             signup_errors.set('lname_error', 'Last name can not be longer than 100 characters');
         }
+
+
 
         if (!emailValidator.validate(email)) {
             signup_errors.set('email_error', "Email address is not valid");
@@ -63,7 +69,9 @@ router.post('/', async function (req, res, next) {
     }
     // console.log(users);
     // console.log(req.body, req.body.twitter)
-    await userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email);
+    console.log(req.body.phone)
+    await userLib.updateUser(req.user['id'], req.body.fname, req.body.lname, req.body.email,
+        req.body.phone, req.body.location, req.body.tagline);
 
   return res.redirect('/user');
 

@@ -27,6 +27,9 @@ var userPortfolio = require('./routes/portfolio');
 var addEducationRouter = require('./routes/add_education');
 var updateEducationRouter = require('./routes/update_education');
 var deleteEducationRouter = require('./routes/delete_education');
+var addExperienceRouter = require('./routes/add_experience');
+var updateExperienceRouter = require('./routes/update_experience');
+var deleteExperienceRouter = require('./routes/delete_experience');
 
 var app = express();
 require('./config/passport')(passport);
@@ -79,6 +82,9 @@ app.use('/user/portfolio', userPortfolio);
 app.use('/user/add-education', addEducationRouter);
 app.use('/user/update-education', updateEducationRouter);
 app.use('/user/delete-education', deleteEducationRouter);
+app.use('/user/add-experience', addExperienceRouter);
+app.use('/user/update-experience', updateExperienceRouter);
+app.use('/user/delete-experience', deleteExperienceRouter);
 // app.use('/loginSubmit', loginSubmitRouter);
 
 // catch 404 and forward to error handler

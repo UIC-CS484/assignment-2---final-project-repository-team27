@@ -52,20 +52,23 @@ router.post('/', async function (req, res, next) {
 
 
     if (req.app.get('env') === 'production') {
-        if (university.length > 300) {
-            errors.set('university_error', 'University text is too long');
+        if (university.length > 300 || university.length <= 0) {
+            errors.set('university_error', 'University name is invalid');
         }
-        if (degree.length > 100) {
-            errors.set('degree_error', 'Degree text is too long');
+        if (degree.length > 100 || degree.length <= 0) {
+            errors.set('degree_error', 'Degree is invalid');
         }
-        if (major.length > 150) {
-            errors.set('major_error', 'Major text is too long');
+        if (major.length > 150 || major.length <= 0) {
+            errors.set('major_error', 'Major is invalid');
         }
         if (start_date < 1900 && start_date > 2022) {
             errors.set('start_date_error', 'Start year is invalid');
         }
         if (end_date < 1900 && end_date > 2050) {
             errors.set('end_date_error', 'End year is invalid');
+        }
+        if (start_date > end_date) {
+            errors.set('end_date_error', 'End year should be after start date');            
         }
 
         if (errors.size !== 0) {
@@ -118,20 +121,23 @@ router.post('/:eid', async function (req, res, next) {
 
 
     if (req.app.get('env') === 'production') {
-        if (university.length > 300) {
-            errors.set('university_error', 'University text is too long');
+        if (university.length > 300 || university.length <= 0) {
+            errors.set('university_error', 'University name is invalid');
         }
-        if (degree.length > 100) {
-            errors.set('degree_error', 'Degree text is too long');
+        if (degree.length > 100 || degree.length <= 0) {
+            errors.set('degree_error', 'Degree is invalid');
         }
-        if (major.length > 150) {
-            errors.set('major_error', 'Major text is too long');
+        if (major.length > 150 || major.length <= 0) {
+            errors.set('major_error', 'Major is invalid');
         }
         if (start_date < 1900 && start_date > 2022) {
             errors.set('start_date_error', 'Start year is invalid');
         }
         if (end_date < 1900 && end_date > 2050) {
             errors.set('end_date_error', 'End year is invalid');
+        }
+        if (start_date > end_date) {
+            errors.set('end_date_error', 'End year should be after start date');            
         }
 
         if (errors.size !== 0) {

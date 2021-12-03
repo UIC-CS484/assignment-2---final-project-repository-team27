@@ -223,8 +223,65 @@ const delete_education = async (eid) => {
   }
 }
 
+
+// Experience
+
+const select_experience_uid = async (uid) => {
+  try {
+    var params = [uid];
+    var sql = `select * from ${experience_table_name} where uid=?`;
+    const rows = await query(sql, params);
+    // if (rows) return rows[0];
+    return rows;
+    } finally {
+  }
+}
+
+const select_experience_id = async (xid) => {
+  try {
+    var params = [xid];
+    var sql = `select * from ${experience_table_name} where xid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
+const insert_experience = async (uid, emp, role, se, ed, des, loc) => {
+  try {
+    var params = [uid, emp, role, se, ed, des, loc];
+    var sql = `INSERT INTO ${experience_table_name} (uid, employer, role, start_date, end_date, description, location) VALUES (?, ?, ?, ?, ?, ?, ?)`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const update_experience = async (xid, emp, role, se, ed, des, loc) => {
+  try {
+    var params = [emp, role, se, ed, des, loc, xid];
+    // console.log(params);
+    var sql = `UPDATE ${experience_table_name} SET employer=?, role=?, start_date=?, end_date=?, description=?, location=? where xid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const delete_experience = async (xid) => {
+  try {
+    var params = [xid];
+    var sql = `DELETE from ${experience_table_name} where xid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
 module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user,
 select_social_uid, select_social_id, insert_social, update_social,
-select_education_uid, select_education_id, insert_education, update_education, delete_education}
+select_education_uid, select_education_id, insert_education, update_education, delete_education,
+select_experience_uid, select_experience_id, insert_experience, update_experience, delete_experience}
+
 
 

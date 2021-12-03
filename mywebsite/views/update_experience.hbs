@@ -1,0 +1,20 @@
+<body class="d-flex h-100 text-white bg-dark">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+<h2>Update Experience</h2>
+
+    {{#each experiences}}
+    <p class="lead">{{this.employer}} at {{this.role}}</p>
+    <p>{{this.start_date}} to {{this.end_date}} {{#if this.location}}at {{this.location}} {{/if}}<p>
+    <p>{{this.description}}<p>
+    <a href="/user/update-experience/{{this.xid}}"><button type="button" class="btn btn-dark">Update</button></a>
+    <a href="/user/delete-experience/{{this.xid}}"><button type="button" class="btn btn-dark">Delete</button></a>
+    {{/each}}
+
+<br>
+<br>
+<a href="/user/add-experience"><button type="button" class="btn btn-dark">Add Experience</button></a> <br>
+<br>
+<a href="/user"><button type="button" class="btn btn-dark">Back</button></a> <br>
+</div>
+
+

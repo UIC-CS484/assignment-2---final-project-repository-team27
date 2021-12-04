@@ -14,12 +14,12 @@ const getSocialById = async (sid) => {
   return await mysqlcon.select_social_id(sid);
 }
 
-const addSocial = async (uid, t, g, l, te) => {
-    await mysqlcon.insert_social(uid, t, g, l, te);
+const addSocial = async (uid, t, g, l, te, ins, so) => {
+    await mysqlcon.insert_social(uid, t, g, l, te, ins, so);
 }
 
-const updateSocial = async (sid, t, g, l, te) => {
-  await mysqlcon.update_social(sid, t, g, l, te);
+const updateSocial = async (sid, t, g, l, te, ins, so) => {
+  await mysqlcon.update_social(sid, t, g, l, te, ins, so);
 }
 
 module.exports = {getSocialByUserId, getSocialById, addSocial, updateSocial};

@@ -10,23 +10,31 @@
 <form id='add-social-form' class="form-signin needs-validation" action="/user/add-social" method='POST' >
   <div class="form-group">
     <label for="twitter">Twitter username</label><br>
-    <input type="text" class="form-control" value="{{twitter}}" id="twitter" name="twitter" required><br>
+    <input type="text" class="form-control" value="{{twitter}}" id="twitter" name="twitter" ><br>
     <span class="help-block alert-danger has-warning">{{twitter_error}}</span>
   </div>
   <div class="form-group">
     <label for="github">GitHub username</label><br>
-    <input type="text" class="form-control" value="{{github}}" id="github" name="github" required><br>
+    <input type="text" class="form-control" value="{{github}}" id="github" name="github" ><br>
     <span class="help-block alert-danger has-warning">{{github_error}}</span>
   </div>
   <div class="form-group">
     <label for="linkedin">LinkedIn username</label><br>
-    <input type="text" class="form-control" value="{{linkedin}}" id="linkedin" name="linkedin" required><br>
+    <input type="text" class="form-control" value="{{linkedin}}" id="linkedin" name="linkedin" ><br>
     <span class="help-block alert-danger has-warning">{{linkedin_error}}</span>
   </div>
   <div class="form-group">
     <label for="twitter_embedding">Twitter Embedding Link</label><br>
-    <input type="text" class="form-control" value="{{twitter_embedding}}" required id="twitter_embedding" name="twitter_embedding"><br>
-    <p>Get your Twitter Publish Link from <a href="https://publish.twitter.com/#">this<a> page</p>
+    <input type="text" class="form-control" value="{{twitter_embedding}}"  id="twitter_embedding" name="twitter_embedding"><br>
+    <p>Get your Twitter Publish Link from <a href="https://publish.twitter.com/#">this</a> page</p>
+  </div>
+  <div class="form-group">
+    <label for="insta">Instagram username</label><br>
+    <input type="text" class="form-control" value="{{insta}}" id="insta" name="insta" maxlength="100"><br>
+  </div>
+  <div class="form-group">
+    <label for="stack_overflow">Stack Overflow username</label><br>
+    <input type="text" class="form-control" value="{{stack_overflow}}" id="stack_overflow" name="stack_overflow"maxlength="100"><br>
   </div>
   <button type="submit" class="btn btn-dark">Submit</button>
   <a href="/user"><button type="button" class="btn btn-dark">Cancel</button></a>

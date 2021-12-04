@@ -15,7 +15,8 @@ router.get('/', async function(req, res, next) {
     if (social) {
         return res.render('add_social', {
           twitter: social['twitter'], github: social['github'], linkedin: social['linkedin'],
-          twitter_embedding: social['twitter_embedding']});
+          twitter_embedding: social['twitter_embedding'],
+          insta: social['insta'], stack_overflow: social['stack_overflow']});
     } else{
         return res.render('add_social', {});
     }
@@ -36,6 +37,8 @@ router.post('/', async function (req, res, next) {
     const twitter = req.body.twitter;
     const github = req.body.github;
     const linkedin = req.body.linkedin;
+    const insta = req.body.insta;
+    const stack_overflow = req.body.stack_overflow;
     const twitter_embedding = req.body.twitter_embedding;
     var errors = new Map();
 
@@ -68,10 +71,10 @@ router.post('/', async function (req, res, next) {
 
     if (social) {
         await socialLib.updateSocial(social['sid'], req.body.twitter, req.body.github, req.body.linkedin,
-            req.body.twitter_embedding);
+            req.body.twitter_embedding, insta, stack_overflow);
     } else {
         await socialLib.addSocial(user['id'], req.body.twitter, req.body.github, req.body.linkedin,
-            req.body.twitter_embedding);
+            req.body.twitter_embedding, insta, stack_overflow);
     }
 
 

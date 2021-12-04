@@ -147,21 +147,21 @@ const select_social_id = async (sid) => {
 }
 
 
-const insert_social = async (uid, t, g, l, te) => {
+const insert_social = async (uid, t, g, l, te, ins, so) => {
   try {
-    var params = [uid, t, g, l, te];
-    var sql = `INSERT INTO ${social_table_name} (uid, twitter, github, linkedin, twitter_embedding) VALUES (?, ?, ?, ?, ?)`;
+    var params = [uid, t, g, l, te, ins, so];
+    var sql = `INSERT INTO ${social_table_name} (uid, twitter, github, linkedin, twitter_embedding, insta, stack_overflow) VALUES (?, ?, ?, ?, ?, ?, ?)`;
     const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {
   }
 }
 
-const update_social = async (sid, t, g, l, te) => {
+const update_social = async (sid, t, g, l, te, ins, so) => {
   try {
-    var params = [t, g, l, te, sid];
+    var params = [t, g, l, te,ins, so, sid];
     // console.log(params);
-    var sql = `UPDATE ${social_table_name} SET twitter=?, github=?, linkedin=?, twitter_embedding=? where sid=?`;
+    var sql = `UPDATE ${social_table_name} SET twitter=?, github=?, linkedin=?, twitter_embedding=?, insta=?, stack_overflow=? where sid=?`;
     const rows = await query(sql, params);
     if (rows) return rows[0];
     } finally {

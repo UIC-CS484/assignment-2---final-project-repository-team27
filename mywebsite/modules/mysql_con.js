@@ -20,6 +20,8 @@ const user_table_name = 'user';
 const social_table_name = 'social';
 const education_table_name = 'education';
 const experience_table_name = 'experience';
+const skill_table_name = 'skill';
+const award_table_name = 'award';
 
 
 con.connect(function(err) {
@@ -278,10 +280,60 @@ const delete_experience = async (xid) => {
     } finally {
   }
 }
+
+
+
+// Skill
+
+const select_skill_uid = async (uid) => {
+  try {
+    var params = [uid];
+    var sql = `select * from ${skill_table_name} where uid=?`;
+    const rows = await query(sql, params);
+    return rows;
+    // if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const select_skill_id = async (sid) => {
+  try {
+    var params = [sid];
+    var sql = `select * from ${skill_table_name} where sid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
+const insert_skill = async (uid, name, score) => {
+  try {
+    var params = [uid, name, score];
+    var sql = `INSERT INTO ${skill_table_name} (uid, name, score) VALUES (?, ?, ?)`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+const delete_skill = async (sid) => {
+  try {
+    var params = [sid];
+    // console.log(params);
+    var sql = `DELETE from ${skill_table_name} where sid=?`;
+    const rows = await query(sql, params);
+    if (rows) return rows[0];
+    } finally {
+  }
+}
+
+
 module.exports = {insert_user, select_user_email, select_user_id, update_user, delete_user,
 select_social_uid, select_social_id, insert_social, update_social,
 select_education_uid, select_education_id, insert_education, update_education, delete_education,
-select_experience_uid, select_experience_id, insert_experience, update_experience, delete_experience}
+select_experience_uid, select_experience_id, insert_experience, update_experience, delete_experience,
+select_skill_uid, select_skill_id, insert_skill, delete_skill}
 
 
 

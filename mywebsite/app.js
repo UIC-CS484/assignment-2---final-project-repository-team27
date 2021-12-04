@@ -30,6 +30,9 @@ var deleteEducationRouter = require('./routes/delete_education');
 var addExperienceRouter = require('./routes/add_experience');
 var updateExperienceRouter = require('./routes/update_experience');
 var deleteExperienceRouter = require('./routes/delete_experience');
+var addSkillRouter = require('./routes/add_skill');
+var updateSkillRouter = require('./routes/update_skill');
+var deleteSkillRouter = require('./routes/delete_skill');
 
 var app = express();
 require('./config/passport')(passport);
@@ -85,6 +88,9 @@ app.use('/user/delete-education', deleteEducationRouter);
 app.use('/user/add-experience', addExperienceRouter);
 app.use('/user/update-experience', updateExperienceRouter);
 app.use('/user/delete-experience', deleteExperienceRouter);
+app.use('/user/add-skill', addSkillRouter);
+app.use('/user/update-skill', updateSkillRouter);
+app.use('/user/delete-skill', deleteSkillRouter);
 // app.use('/loginSubmit', loginSubmitRouter);
 
 // catch 404 and forward to error handler

@@ -98,3 +98,7 @@ iframe {
     max-width: 50%!important;
     max-height: 500px;
 }
+
+canvas {
+  max-height: 500px!important;
+}

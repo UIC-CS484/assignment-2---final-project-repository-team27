@@ -96,5 +96,5 @@ span.help-block:not(:empty) {
 
 iframe {
     max-width: 50%!important;
-    max-height: 1000px;
+    max-height: 500px;
 }

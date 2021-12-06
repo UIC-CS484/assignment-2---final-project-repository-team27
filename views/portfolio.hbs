@@ -16,7 +16,7 @@
     <div class="bbox" id="about">
       <h3>About Me</h3>
       <p>
-        hwalekcm oaiw mcoa weiaj ogaj lcms dfjawoirgvacamsdlkfio awjvoi
+        {{tagline}}i
       </p>
       <ul class="no-style">
         <li style="list-style-type: none;">
@@ -87,17 +87,31 @@
       </div>
       <script type="text/javascript">
       // TODO: UnComment this!!!
-        // render_chart();
+        render_chart();
       </script>
 
     </div>
     <div class="bbox" id="projects">
       <h3>GitHub Projects</h3>
-
+      <ul class="no-style">
+        {{#each github_repos}}
+        <li style="list-style-type: none;">
+          <div>
+          <p style="display:inline;" class="bigp"><a href="{{this.html_url}}">{{this.name}}</a></p>
+          <p>Created at {{this.created_at}} Forks <b>{{this.forks_count}}</b> Stars <b>{{this.stargazers_count}}</b><p>
+          <p>{{this.description}}</p>
+          <div>
+        </li>
+        {{/each}}
+      </ul>
     </div>
-    <div class="bbox"id="twitter"></div>
+    <div class="bbox" id="twitter" style="max-height:500px">
+      {{{twitter_embedding}}}
+    </div>
 
   </div>
 
-
+<footer class="mt-auto">
+    <p>Project part of CS484 by Prof. Chris Fulton at University of Illinois at Chicago</p>
+  </footer>
 </body>

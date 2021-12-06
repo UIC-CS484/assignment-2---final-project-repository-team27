@@ -32,9 +32,11 @@ router.get('/', async function(req, res, next) {
     const social = await socialLib.getSocialByUserId(req.user['id']);
     if (social) {
         // TODO: UnComment this!!!
-        let repos = [];
-        // let repos = await githubLib.get_user_repos(social['github']);
-        params.set('github_repos', repos);
+        // let repos = [];
+        let repos = await githubLib.get_user_repos(social['github']);
+        // console.log(length(repos.slice(3)))
+        // console.log(repos.length, repos.slice(0, 2).length)
+        params.set('github_repos', repos.slice(0, Math.min(repos.length, 3)));
         params.set('twitter', social['twitter']);
         params.set('github', social['github']);
         params.set('linkedin', social['linkedin']);

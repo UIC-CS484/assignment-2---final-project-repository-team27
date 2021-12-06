@@ -155,10 +155,10 @@ const select_education_id = async (eid) => {
 }
 
 
-const insert_education = async (uid, uni, deg, mj, sd, ed) => {
+const insert_education = async (uid, uni, deg, mj, sd, ed, des) => {
   try {
-    var params = [uid, uni, deg, mj, sd, ed];
-    var sql = `INSERT INTO ${education_table_name} (uid, university, degree, major, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?)`;
+    var params = [uid, uni, deg, mj, sd, ed, des];
+    var sql = `INSERT INTO ${education_table_name} (uid, university, degree, major, start_date, end_date, description) VALUES (?, ?, ?, ?, ?, ?, ?)`;
     const rows = await conn.run(sql, params);
     // if (rows) return rows[0];
     return rows;
@@ -166,11 +166,11 @@ const insert_education = async (uid, uni, deg, mj, sd, ed) => {
   }
 }
 
-const update_education = async (eid, uni, deg, mj, sd, ed) => {
+const update_education = async (eid, uni, deg, mj, sd, ed, des) => {
   try {
-    var params = [uni, deg, mj, sd, ed, eid];
+    var params = [uni, deg, mj, sd, ed, des, eid];
     // console.log(params);
-    var sql = `UPDATE ${education_table_name} SET university=?, degree=?, major=?, start_date=?, end_date=? where eid=?`;
+    var sql = `UPDATE ${education_table_name} SET university=?, degree=?, major=?, start_date=?, end_date=?, description=? where eid=?`;
     const rows = await conn.run(sql, params);
     // if (rows) return rows[0];
     return rows;

@@ -18,7 +18,7 @@
       <p>
         hwalekcm oaiw mcoa weiaj ogaj lcms dfjawoirgvacamsdlkfio awjvoi
       </p>
-      <ul id="contact">
+      <ul class="no-style">
         <li style="list-style-type: none;">
           <i class="fa fa-envelope"></i><b>Email</b> {{email}}
         </li>
@@ -33,6 +33,19 @@
     </div>
     <div class="bbox" id="education">
       <h3>Education</h3>
+
+      <ul class="no-style">
+        {{#each educations}}
+        <li style="list-style-type: none;">
+          <div>
+          <span class="dot"></span><p style="display:inline;padding-left:15px;" class="bigp">{{this.degree}} in {{this.major}} from {{this.university}}</p>
+          <p>{{this.start_date}} - {{this.end_date}}</p>
+          <p>{{this.description}}<p>
+          <div>
+        </li>
+        {{/each}}
+      </ul>
+
 
     </div>
     <div class="bbox" id="skills">

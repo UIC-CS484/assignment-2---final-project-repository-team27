@@ -29,7 +29,8 @@ router.get('/:eid', async function(req, res, next) {
 
         return res.render('add_education', {
             university: edu['university'], degree: edu['degree'], 
-            eid: edu['eid'], major: edu['major'], start_date: edu['start_date'], end_date: edu['end_date']});
+            eid: edu['eid'], major: edu['major'], start_date: edu['start_date'], end_date: edu['end_date'],
+            description: edu['description']});
     }
     return res.render('add_education', {educations: educations});
 });
@@ -46,6 +47,7 @@ router.post('/', async function (req, res, next) {
     const university = req.body.university;
     const degree = req.body.degree;
     const major = req.body.major;
+    const description = req.body.description;
     const start_date = req.body.start_date;
     const end_date = req.body.end_date;
     var errors = new Map();
@@ -86,7 +88,7 @@ router.post('/', async function (req, res, next) {
         }
     }
     
-    await eduLib.addEducation(user['id'], university, degree, major, start_date, end_date);
+    await eduLib.addEducation(user['id'], university, degree, major, start_date, end_date, description);
 
     return res.redirect('/user/update-education');
 
@@ -117,6 +119,7 @@ router.post('/:eid', async function (req, res, next) {
     const major = req.body.major;
     const start_date = req.body.start_date;
     const end_date = req.body.end_date;
+    const description = req.body.description;
     var errors = new Map();
 
 
@@ -156,7 +159,7 @@ router.post('/:eid', async function (req, res, next) {
         }
     }
     
-    await eduLib.updateEducation(req.params.eid, university, degree, major, start_date, end_date);
+    await eduLib.updateEducation(req.params.eid, university, degree, major, start_date, end_date, description);
 
   return res.redirect('/user/update-education');
 

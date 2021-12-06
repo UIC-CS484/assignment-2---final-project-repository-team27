@@ -7,7 +7,19 @@ a.fa:hover {
     text-decoration: none;
 }
 
-#contact {
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bigp {
+    font-size: large;
+}
+
+.no-style {
     padding-inline-start: 0px;
 }
 

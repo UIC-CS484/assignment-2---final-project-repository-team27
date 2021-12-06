@@ -14,12 +14,12 @@ const getEducationById = async (eid) => {
   return await mysqlcon.select_education_id(eid);
 }
 
-const addEducation = async (uid, uni, deg, mj, sd, ed) => {
-    await mysqlcon.insert_education(uid, uni, deg, mj, sd, ed);
+const addEducation = async (uid, uni, deg, mj, sd, ed, des) => {
+    await mysqlcon.insert_education(uid, uni, deg, mj, sd, ed, des);
 }
 
-const updateEducation = async (eid, uni, deg, mj, sd, ed) => {
-  await mysqlcon.update_education(eid, uni, deg, mj, sd, ed);
+const updateEducation = async (eid, uni, deg, mj, sd, ed, des) => {
+  await mysqlcon.update_education(eid, uni, deg, mj, sd, ed, des);
 }
 
 const deleteEducation = async (eid) => {

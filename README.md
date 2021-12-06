@@ -12,6 +12,14 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 ## Project Details
 
+#### Docker
+To build the docker image run following command:
+`docker build . -t <image_name>:latest`
+
+Once docker image is created, run docker image/nodejs app using following command:
+`docker run --publish 3000:3000 <image_name>:latest`
+
+
 #### Connecting with SQL
 
 ![ER Diagram of Database](mywebsite/database/ERDiagram.png "ER Diagram")

@@ -1,7 +1,7 @@
 
 // To get/add users Experience to database/json file
 
-var mysqlcon = require('../modules/mysql_con.js')
+var mysqlcon = require('../modules/sqlite_con.js')
 
 const getExperienceByUserId = async (uid) => {
   var edu = await mysqlcon.select_experience_uid(uid);

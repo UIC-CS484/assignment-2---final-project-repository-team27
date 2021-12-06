@@ -13,7 +13,7 @@ require('dotenv').config();
 var mysql = require('mysql2');
 const Chart = require('chart.js');
 
-require('./modules/mysql_con');
+require('./modules/sqlite_con');
 var indexRouter = require('./routes/index');
 var signupRouter = require('./routes/signup');
 var loginRouter = require('./routes/login');
@@ -38,7 +38,6 @@ var app = express();
 require('./config/passport')(passport);
 // Set the production env
 app.set('env', 'production');
-
 // const initializePassport = require('./config/passport')
 // initializePassport(
 //   passport,

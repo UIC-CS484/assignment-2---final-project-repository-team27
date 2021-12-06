@@ -1,4 +1,8 @@
-CREATE TABLE user (
+
+CREATE DATABASE IF NOT EXISTS portfolio;
+USE portfolio;
+
+CREATE TABLE IF NOT EXISTS user (
     id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     fname varchar(100) NOT NULL,
     lname varchar(100) NOT NULL,
@@ -9,7 +13,7 @@ CREATE TABLE user (
     password varchar(70) NOT NULL
 );
 
-CREATE TABLE social (
+CREATE TABLE IF NOT EXISTS social (
     sid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     uid int NOT NULL,
     twitter varchar(100),
@@ -24,7 +28,7 @@ CREATE TABLE social (
         ON DELETE CASCADE
 );
 
-CREATE TABLE experience (
+CREATE TABLE IF NOT EXISTS experience (
     xid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     uid int NOT NULL,
     employer varchar(200) NOT NULL,
@@ -39,7 +43,7 @@ CREATE TABLE experience (
 );
 
 
-CREATE TABLE education (
+CREATE TABLE IF NOT EXISTS education (
     eid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     uid int NOT NULL,
     university varchar(320) NOT NULL,
@@ -54,7 +58,7 @@ CREATE TABLE education (
         ON DELETE CASCADE
 );
 
-CREATE TABLE skill (
+CREATE TABLE IF NOT EXISTS skill (
     sid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     uid int NOT NULL,
     name varchar(100) NOT NULL,
@@ -64,7 +68,7 @@ CREATE TABLE skill (
         ON DELETE CASCADE
 );
 
-CREATE TABLE award (
+CREATE TABLE IF NOT EXISTS award (
     aid int NOT NULL PRIMARY KEY AUTO_INCREMENT,
     uid int NOT NULL,
     name varchar(100) NOT NULL,

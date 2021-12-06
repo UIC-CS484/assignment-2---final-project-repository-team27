@@ -20,7 +20,9 @@ router.get('/', async function(req, res, next) {
     const social = await socialLib.getSocialByUserId(req.user['id']);
 
     // console.log("14", social);
+    // return res.render('portfolio', {});
     if (social) {
+        // TODO: UnComment this!!!
         // let repos = await githubLib.get_user_repos(social['github']);
         let repos = [];
 

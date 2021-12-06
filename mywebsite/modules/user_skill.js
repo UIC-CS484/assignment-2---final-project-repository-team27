@@ -1,7 +1,7 @@
 
 // To get/add users social to database/json file
 
-var mysqlcon = require('../modules/mysql_con.js')
+var mysqlcon = require('../modules/sqlite_con.js')
 
 const getSkillByUserId = async (uid) => {
   var social = await mysqlcon.select_skill_uid(uid);

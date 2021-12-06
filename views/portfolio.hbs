@@ -50,6 +50,17 @@
     </div>
     <div class="bbox" id="skills">
       <h3>Skills</h3>
+      <ul class="no-style">
+        {{#each skills}}
+        <li style="list-style-type: none;padding-bottom:10px;">
+        <p style="font-size:medium;display:inline;padding-right:10px;" >{{this.name}}</p>
+        <div class="progress" style="margin-top:5px;">
+          <div class="progress-bar bg-success" style="width:{{this.score}}%;height:20px;" value="{{this.score}}" max="10">
+        {{this.score}}% </div>
+        </div>
+        </li>
+        {{/each}}
+      </ul>
 
     </div>
     <div class="bbox" id="github">

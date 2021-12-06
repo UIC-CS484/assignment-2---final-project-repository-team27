@@ -1,45 +1,59 @@
-<body class="d-flex h-100 text-white bg-dark">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
 
-<body class="d-flex h-100 text-center text-white bg-dark">
+  <div id="page-content">
+    <h1>{{fname}} {{lname}}</h1>
+    <ul>
+          <li style="display:inline">
+          <a href="http://twitter.com/{{twitter}}" class="fa fa-twitter"></a></li>
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      {{!-- <h3 class="float-md-start mb-0">Portfolio Page</h3> --}}
-      <h1>{{fname}} {{lname}}</h1>
-      <h3>{{email}}</h3>
+          <li style="display:inline">
+          <a href="http://github.com/{{github}}" class="fa fa-github"></a></li>
+          <li style="display:inline">
+          <a href="http://linkedin.com/in/{{linkedin}}" class="fa fa-linkedin"></a></li>
+  </ul>
+
+    <div class="bbox" id="about">
+      <h3>About Me</h3>
+      <p>
+        hwalekcm oaiw mcoa weiaj ogaj lcms dfjawoirgvacamsdlkfio awjvoi
+      </p>
+      <ul id="contact">
+        <li style="list-style-type: none;">
+          <i class="fa fa-envelope"></i><b>Email</b> {{email}}
+        </li>
+        <li style="list-style-type: none;">
+          <i class="fa fa-phone"></i><b>Phone</b> {{phone}}
+        </li>
+        <li style="list-style-type: none;">
+          <i class="fa fa-map-marker"></i><b>Address</b> {{location}}
+        </li>
+      </ul>
+
     </div>
-  </header>
+    <div class="bbox" id="education">
+      <h3>Education</h3>
 
-  <main>
-      <p class="lead">Twitter: <a href="http://twitter.com/{{twitter}}">{{twitter}}</a></p>
-      <p class="lead">GitHub: <a href="http://github.com/{{github}}">{{github}}</a></p>
-      <p class="lead">Linkedin: <a href="http://linkedin.com/in/{{linkedin}}">{{linkedin}}</a></p>
-  </main>
-  <p class='lead'>Education</p>
+    </div>
+    <div class="bbox" id="skills">
+      <h3>Skills</h3>
 
-  <p class='lead'>GitHub Activity Chart</p>
+    </div>
+    <div class="bbox" id="github">
+      <h3>GitHub Activity Chart</h3>
 
-  <div id="chart-container">
-    <canvas id="myChart" gid={{github}} width="400" height="400"></canvas>
+    </div>
+    <div class="bbox"id="experience">
+      <h3>Experience</h3>
+
+    </div>
+    <div class="bbox" id="projects">
+      <h3>GitHub Projects</h3>
+
+    </div>
+    <div class="bbox"id="twitter"></div>
+
   </div>
-  <script type="text/javascript">
-  // TODO: UnComment this!!!
-    render_chart();
-  </script>
 
-    <h3>Projects:</h3>
-    {{#each github_repos}}
-    <p class="lead"><a href="{{this.html_url}}">{{this.name}}</a></p>
-    <p>Created at {{this.created_at}} Forks: {{this.forks_count}} Stars: {{this.stargazers_count}}<p>
-    <p>{{this.description}}</p>
-    {{/each}}
-
-  {{{twitter_embedding}}}
-  <footer class="mt-auto">
-    <p>Project part of CS484 by Prof. Chris Fulton at University of Illinois at Chicago</p>
-  </footer>
-</div>
 
 </body>
-  

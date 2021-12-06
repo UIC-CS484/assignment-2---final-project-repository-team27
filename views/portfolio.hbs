@@ -63,12 +63,32 @@
       </ul>
 
     </div>
-    <div class="bbox" id="github">
-      <h3>GitHub Activity Chart</h3>
-
-    </div>
+    
     <div class="bbox"id="experience">
       <h3>Experience</h3>
+      <ul class="no-style">
+        {{#each experiences}}
+        <li style="list-style-type: none;">
+          <div>
+          <span class="dot"></span><p style="display:inline;padding-left:15px;" class="bigp">{{this.role}} at {{this.employer}}</p>
+          <p>{{this.start_date}} - {{this.end_date}} at {{this.location}}</p>
+          <p>{{this.description}}<p>
+          <div>
+        </li>
+        {{/each}}
+      </ul>
+
+
+    </div>
+    <div class="bbox" id="github">
+      <h3>GitHub Activity Chart</h3>
+      <div id="chart-container">
+        <canvas id="myChart" gid={{github}} width="400" height="400"></canvas>
+      </div>
+      <script type="text/javascript">
+      // TODO: UnComment this!!!
+        // render_chart();
+      </script>
 
     </div>
     <div class="bbox" id="projects">

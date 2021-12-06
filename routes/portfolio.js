@@ -23,8 +23,8 @@ router.get('/', async function(req, res, next) {
     // return res.render('portfolio', {});
     if (social) {
         // TODO: UnComment this!!!
-        // let repos = await githubLib.get_user_repos(social['github']);
-        let repos = [];
+        // let repos = [];
+        let repos = await githubLib.get_user_repos(social['github']);
 
         return res.render('portfolio', {
           fname: user['fname'], lname: user['lname'], email: user['email'],

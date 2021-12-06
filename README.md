@@ -12,6 +12,10 @@ Link to [Project](https://uic-cs484.github.io/assignment-2---final-project-repos
 
 ## Project Details
 
+#### Heroku
+
+The app is deployed on [Heroku](https://blooming-reaches-02203.herokuapp.com).
+
 #### Docker
 To build the docker image run following command:
 `docker build . -t <image_name>:latest`

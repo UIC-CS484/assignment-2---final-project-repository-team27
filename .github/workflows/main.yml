@@ -14,9 +14,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./mywebsite
 
     strategy:
       matrix:
@@ -30,9 +27,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: mywebsite/package-lock.json
-    - name: "NPM"
-      working-directory: ./mywebsite
-      run: npm ci
+    - run: npm ci
     - run: npm run build --if-present
     - run: npm test

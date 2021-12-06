@@ -22,15 +22,15 @@ Once docker image is created, run docker image/nodejs app using following comman
 
 #### Connecting with SQL
 
-![ER Diagram of Database](mywebsite/database/ERDiagram.png "ER Diagram")
+![ER Diagram of Database](database/ERDiagram.png "ER Diagram")
 
-The Database file is stored as `mywebsite/database/portfolio.db`. You can import database in DB Browser using this file. You can also create database in any other tools using `mywebsite/database/db.sql` file. 
+The Database file is stored as `database/portfolio.db`. You can import database in DB Browser using this file. You can also create database in any other tools using `database/db.sql` file. 
 
 
 #### Charting
 We have used [chart.js](https://www.chartjs.org/docs/latest/) library for GitHub Activity bar chart at `/user/portfolio` page.
 It will render as shown following:
-![GitHub Activity Bar Chart](mywebsite/public/data/gchart.png "GitHub Activity")
+![GitHub Activity Bar Chart](public/data/gchart.png "GitHub Activity")
 It shows the number of user's activities on GitHub in past month.
 
 

@@ -1,0 +1,2296 @@
+[
+    {
+        "id": "19007934605",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8449955692,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "348699ffe189e57375628c01aa3db299aab9c3da",
+            "before": "40576bfabd483f4dc5e740c90bcff28470e46ed7",
+            "commits": [
+                {
+                    "sha": "a6dfbf55ee934adc371592ea1efb0438f69e8b77",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add education page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/a6dfbf55ee934adc371592ea1efb0438f69e8b77"
+                },
+                {
+                    "sha": "348699ffe189e57375628c01aa3db299aab9c3da",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add/update/delete education",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/348699ffe189e57375628c01aa3db299aab9c3da"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-23T04:18:09Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "19005053629",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8448428797,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "40576bfabd483f4dc5e740c90bcff28470e46ed7",
+            "before": "8784fa082d9baaf55df7b17fb3d9772cdbb8f404",
+            "commits": [
+                {
+                    "sha": "f89f6d63999d560019c915b8dd26a6a62666933c",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Install anychart-nodejs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/f89f6d63999d560019c915b8dd26a6a62666933c"
+                },
+                {
+                    "sha": "40576bfabd483f4dc5e740c90bcff28470e46ed7",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Install anychart-nodejs",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/40576bfabd483f4dc5e740c90bcff28470e46ed7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-22T22:22:23Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "19004893036",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8448350741,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "8784fa082d9baaf55df7b17fb3d9772cdbb8f404",
+            "before": "7b2c80c831ce58583982eaa011036518676d0bc0",
+            "commits": [
+                {
+                    "sha": "15fca5a1606fc90986c8b4de16ff3d26b6a57f67",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "install github-api package",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/15fca5a1606fc90986c8b4de16ff3d26b6a57f67"
+                },
+                {
+                    "sha": "8784fa082d9baaf55df7b17fb3d9772cdbb8f404",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "github RESTful API",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/8784fa082d9baaf55df7b17fb3d9772cdbb8f404"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-22T22:08:49Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "19001453534",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8446657649,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7b2c80c831ce58583982eaa011036518676d0bc0",
+            "before": "b964b73460a0dc13367e3ec67e3b042b8292f58c",
+            "commits": [
+                {
+                    "sha": "7b2c80c831ce58583982eaa011036518676d0bc0",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "portfolio page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/7b2c80c831ce58583982eaa011036518676d0bc0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-22T17:50:30Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18986380717",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8438987007,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "b964b73460a0dc13367e3ec67e3b042b8292f58c",
+            "before": "cd2d60ec2e3c5bdb43976f69442dd5ea6ceefbc9",
+            "commits": [
+                {
+                    "sha": "b964b73460a0dc13367e3ec67e3b042b8292f58c",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add user's social",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/b964b73460a0dc13367e3ec67e3b042b8292f58c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-21T19:42:37Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18986128193",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8438820243,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "cd2d60ec2e3c5bdb43976f69442dd5ea6ceefbc9",
+            "before": "4f63b7795f5f2eb1b39a060d9158b5f334c21c5b",
+            "commits": [
+                {
+                    "sha": "cd2d60ec2e3c5bdb43976f69442dd5ea6ceefbc9",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Parameterized mysql queries",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/cd2d60ec2e3c5bdb43976f69442dd5ea6ceefbc9"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-21T18:51:13Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18986065247",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8438778661,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "4f63b7795f5f2eb1b39a060d9158b5f334c21c5b",
+            "before": "999080577164013c7f663856aaf3bb427d42b142",
+            "commits": [
+                {
+                    "sha": "4f63b7795f5f2eb1b39a060d9158b5f334c21c5b",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Database",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/4f63b7795f5f2eb1b39a060d9158b5f334c21c5b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-21T18:38:16Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18985739483",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8438564512,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "999080577164013c7f663856aaf3bb427d42b142",
+            "before": "952b76fb833cf8cd542da3a0c3ab1cb53e08b8c5",
+            "commits": [
+                {
+                    "sha": "999080577164013c7f663856aaf3bb427d42b142",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "ER Diagram",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/999080577164013c7f663856aaf3bb427d42b142"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-21T17:33:51Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18985737075",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8438563011,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "952b76fb833cf8cd542da3a0c3ab1cb53e08b8c5",
+            "before": "e4221181450ca4409996fe850b806728356ca252",
+            "commits": [
+                {
+                    "sha": "952b76fb833cf8cd542da3a0c3ab1cb53e08b8c5",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "ER Diagram",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/952b76fb833cf8cd542da3a0c3ab1cb53e08b8c5"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-21T17:33:22Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18971814638",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8429944337,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e4221181450ca4409996fe850b806728356ca252",
+            "before": "f1b7767695bc48e4752af8cabc382ca290f82604",
+            "commits": [
+                {
+                    "sha": "e4221181450ca4409996fe850b806728356ca252",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add Twitter API Embedding",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/e4221181450ca4409996fe850b806728356ca252"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-19T18:13:56Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18971247716",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8429667455,
+            "size": 7,
+            "distinct_size": 7,
+            "ref": "refs/heads/master",
+            "head": "f1b7767695bc48e4752af8cabc382ca290f82604",
+            "before": "a0cb76894cd4be7f302280a893cca12ba5a2b613",
+            "commits": [
+                {
+                    "sha": "3c27ea8b7ab92af4f6212f60613da9c33231338d",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Update README with unit test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/3c27ea8b7ab92af4f6212f60613da9c33231338d"
+                },
+                {
+                    "sha": "948d092854cab6174678f0031c3e5e70893c7e4c",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add API credentials in gitignore",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/948d092854cab6174678f0031c3e5e70893c7e4c"
+                },
+                {
+                    "sha": "90a9a7c1daa5ae50d5ef51b0edcfdc672c3d908f",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add twitter-api-client package",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/90a9a7c1daa5ae50d5ef51b0edcfdc672c3d908f"
+                },
+                {
+                    "sha": "a21f9ea904b28c30363611a69f8c5c4dafed041a",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Store twitter api credentials in environment instead of json file.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/a21f9ea904b28c30363611a69f8c5c4dafed041a"
+                },
+                {
+                    "sha": "e8611ab5d98d19c066cb321c504e65b1b739230d",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Embedd twitter profile timeline",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/e8611ab5d98d19c066cb321c504e65b1b739230d"
+                },
+                {
+                    "sha": "c8716c68afd1bcab8b98517938fbd5bcdd7746bc",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add mysql",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/c8716c68afd1bcab8b98517938fbd5bcdd7746bc"
+                },
+                {
+                    "sha": "f1b7767695bc48e4752af8cabc382ca290f82604",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "User signup in mysql CRUD",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/f1b7767695bc48e4752af8cabc382ca290f82604"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-19T17:30:23Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18898870928",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8393853886,
+            "size": 4,
+            "distinct_size": 4,
+            "ref": "refs/heads/master",
+            "head": "a0cb76894cd4be7f302280a893cca12ba5a2b613",
+            "before": "a6fce2c558d11678c1f2b2fd5356ae052ec04a0f",
+            "commits": [
+                {
+                    "sha": "94c5d6680f5c678a1d4f247820d8e4f816ea140e",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Install jest",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/94c5d6680f5c678a1d4f247820d8e4f816ea140e"
+                },
+                {
+                    "sha": "45f542c8d2ba3bc56f46ced4963a43a046a0fc21",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "minor",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/45f542c8d2ba3bc56f46ced4963a43a046a0fc21"
+                },
+                {
+                    "sha": "dc63bed0b9c60e22ddc7289cda03cbd4c5e8d157",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add test modules for password validation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/dc63bed0b9c60e22ddc7289cda03cbd4c5e8d157"
+                },
+                {
+                    "sha": "a0cb76894cd4be7f302280a893cca12ba5a2b613",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Update README with unit test",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/a0cb76894cd4be7f302280a893cca12ba5a2b613"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-15T21:29:24Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18729524670",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 10270250,
+            "name": "facebook/react",
+            "url": "https://api.github.com/repos/facebook/react"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2021-11-03T19:51:49Z",
+        "org": {
+            "id": 69631,
+            "login": "facebook",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/facebook",
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+        }
+    },
+    {
+        "id": "18703964244",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8291923009,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a6fce2c558d11678c1f2b2fd5356ae052ec04a0f",
+            "before": "034dacdb4e5c118ea2a9d0cbc84488f0bba6dff3",
+            "commits": [
+                {
+                    "sha": "a6fce2c558d11678c1f2b2fd5356ae052ec04a0f",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Fix minor error",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/a6fce2c558d11678c1f2b2fd5356ae052ec04a0f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-02T12:41:42Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18687112328",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8283502112,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "034dacdb4e5c118ea2a9d0cbc84488f0bba6dff3",
+            "before": "457befcfc000d46afd35a908fde07c631b190952",
+            "commits": [
+                {
+                    "sha": "034dacdb4e5c118ea2a9d0cbc84488f0bba6dff3",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Account setting edit",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/034dacdb4e5c118ea2a9d0cbc84488f0bba6dff3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-01T13:45:23Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18687083742",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8283487742,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "457befcfc000d46afd35a908fde07c631b190952",
+            "before": "cea2dd1460a0bc5477835359e1519253bd1d1d97",
+            "commits": [
+                {
+                    "sha": "f5668ea298e07e7879d71e3a754e69168be34fac",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Update index page layout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/f5668ea298e07e7879d71e3a754e69168be34fac"
+                },
+                {
+                    "sha": "457befcfc000d46afd35a908fde07c631b190952",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Delete account option",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/457befcfc000d46afd35a908fde07c631b190952"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-11-01T13:43:28Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18665637515",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8270994377,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "cea2dd1460a0bc5477835359e1519253bd1d1d97",
+            "before": "a8954d7aa4a8635ee004d5e1f8a8dbf5054558fe",
+            "commits": [
+                {
+                    "sha": "7441884f19da0a68a057550a1e185274b409da88",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add email validator backend",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/7441884f19da0a68a057550a1e185274b409da88"
+                },
+                {
+                    "sha": "d9b1fb5b4b66b085d5f98b3548512c25410e0267",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Sign up errors",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/d9b1fb5b4b66b085d5f98b3548512c25410e0267"
+                },
+                {
+                    "sha": "cea2dd1460a0bc5477835359e1519253bd1d1d97",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add logout",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/cea2dd1460a0bc5477835359e1519253bd1d1d97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-29T21:46:53Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18663809315",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8270091296,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "a8954d7aa4a8635ee004d5e1f8a8dbf5054558fe",
+            "before": "3e212921eb246581cf064c0a54af834c9cc467ee",
+            "commits": [
+                {
+                    "sha": "892c70f2336631da4f5856fae11a00f29f8f92ba",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Delete not-required file.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/892c70f2336631da4f5856fae11a00f29f8f92ba"
+                },
+                {
+                    "sha": "7b74457c8ac455395925cac5f41d1b77179b5802",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "JS for frontend validation",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/7b74457c8ac455395925cac5f41d1b77179b5802"
+                },
+                {
+                    "sha": "a8954d7aa4a8635ee004d5e1f8a8dbf5054558fe",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Move server side js to different directory.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/a8954d7aa4a8635ee004d5e1f8a8dbf5054558fe"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-29T18:54:24Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18646318689",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 144140342,
+            "name": "paritytech/polkadot",
+            "url": "https://api.github.com/repos/paritytech/polkadot"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2021-10-28T18:02:05Z",
+        "org": {
+            "id": 14176906,
+            "login": "paritytech",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/paritytech",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14176906?"
+        }
+    },
+    {
+        "id": "18592106681",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8234831982,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "3e212921eb246581cf064c0a54af834c9cc467ee",
+            "before": "f302b94e895b8e5f17b56f89c9db7e198841f8bf",
+            "commits": [
+                {
+                    "sha": "302838b37ccd7d7b77b9ec9988247deb9f6d8b15",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Strong password",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/302838b37ccd7d7b77b9ec9988247deb9f6d8b15"
+                },
+                {
+                    "sha": "97d079a2f01e44dfa69eee83f6befe5c5e0dc252",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Export user.json to js file.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/97d079a2f01e44dfa69eee83f6befe5c5e0dc252"
+                },
+                {
+                    "sha": "3e212921eb246581cf064c0a54af834c9cc467ee",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Strong password enforcement",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/3e212921eb246581cf064c0a54af834c9cc467ee"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-25T21:18:32Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18563014706",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8218912936,
+            "size": 6,
+            "distinct_size": 6,
+            "ref": "refs/heads/master",
+            "head": "f302b94e895b8e5f17b56f89c9db7e198841f8bf",
+            "before": "9142184775efcc47881b3494a6227a89953a91b0",
+            "commits": [
+                {
+                    "sha": "ef4bde3b6a90db04b899dd6655910da2cfb4821c",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Define all routes",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/ef4bde3b6a90db04b899dd6655910da2cfb4821c"
+                },
+                {
+                    "sha": "71949fba45ea6013fb3ee3e0a95aac60ab00682f",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add login setup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/71949fba45ea6013fb3ee3e0a95aac60ab00682f"
+                },
+                {
+                    "sha": "ca4c2c512ab8304a7fc62754adddae3c904420c6",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add signup setup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/ca4c2c512ab8304a7fc62754adddae3c904420c6"
+                },
+                {
+                    "sha": "0e3377d251dbb6eb675e1d3d25b8e3b8f02fc80a",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Passport js setup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/0e3377d251dbb6eb675e1d3d25b8e3b8f02fc80a"
+                },
+                {
+                    "sha": "bed6054d4536fe154ac93c66373c46a81c1b0bdb",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Finally passport.js setup",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/bed6054d4536fe154ac93c66373c46a81c1b0bdb"
+                },
+                {
+                    "sha": "f302b94e895b8e5f17b56f89c9db7e198841f8bf",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Signup setup and bcrypt",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/f302b94e895b8e5f17b56f89c9db7e198841f8bf"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-22T23:17:43Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18500535468",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 114506572,
+            "name": "jimmysong/programmingbitcoin",
+            "url": "https://api.github.com/repos/jimmysong/programmingbitcoin"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2021-10-19T13:23:01Z"
+    },
+    {
+        "id": "18489918074",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "push_id": 8182956826,
+            "size": 3,
+            "distinct_size": 3,
+            "ref": "refs/heads/master",
+            "head": "9142184775efcc47881b3494a6227a89953a91b0",
+            "before": "17d812bc83f23da1921f989630a7bd974fee45b6",
+            "commits": [
+                {
+                    "sha": "f42e02ea7c5efb747765ed3d65001dd2c0eae694",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Publish to Github pages",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/f42e02ea7c5efb747765ed3d65001dd2c0eae694"
+                },
+                {
+                    "sha": "bc36ff88cc389151e7019cf868bbc32cdafa7a14",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "gitignore for node",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/bc36ff88cc389151e7019cf868bbc32cdafa7a14"
+                },
+                {
+                    "sha": "9142184775efcc47881b3494a6227a89953a91b0",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Intialize express app",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27/commits/9142184775efcc47881b3494a6227a89953a91b0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-18T22:15:27Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18425051670",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 416064352,
+            "name": "UIC-CS484/assignment-2---final-project-repository-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-2---final-project-repository-team27"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "assignment-2---final-project-repository-team27 created by GitHub Classroom",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2021-10-13T20:48:04Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18253787690",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "push_id": 8065261398,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "4f437c16f0b86577aadfa8adff9c758675827459",
+            "before": "85157bff4a3bb44e09d1e286e3810052fb67b2ad",
+            "commits": [
+                {
+                    "sha": "8f19244822cb8c84f1cf500204d414c7d73a1d14",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add button to resize font.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/8f19244822cb8c84f1cf500204d414c7d73a1d14"
+                },
+                {
+                    "sha": "4f437c16f0b86577aadfa8adff9c758675827459",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add workflow.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/4f437c16f0b86577aadfa8adff9c758675827459"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-02T17:36:53Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18246548871",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "push_id": 8061297882,
+            "size": 3,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "85157bff4a3bb44e09d1e286e3810052fb67b2ad",
+            "before": "d8af1d08383dde59991b1e29790d844c88695bd7",
+            "commits": [
+                {
+                    "sha": "be55c9b1e858f0096f839c059198756a2d8d164f",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Update README for branches",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/be55c9b1e858f0096f839c059198756a2d8d164f"
+                },
+                {
+                    "sha": "f79eb291b9682afd546082e2529afd91763d1c0e",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Merge branch 'master' into dev",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/f79eb291b9682afd546082e2529afd91763d1c0e"
+                },
+                {
+                    "sha": "85157bff4a3bb44e09d1e286e3810052fb67b2ad",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Merge pull request #1 from UIC-CS484/dev\n\nUpdate README for branches",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/85157bff4a3bb44e09d1e286e3810052fb67b2ad"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-01T19:14:58Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18246548738",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 1,
+            "pull_request": {
+                "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1",
+                "id": 747879724,
+                "node_id": "PR_kwDOGDSTgM4sk70s",
+                "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1",
+                "diff_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1.diff",
+                "patch_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1.patch",
+                "issue_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1",
+                "number": 1,
+                "state": "closed",
+                "locked": false,
+                "title": "Update README for branches",
+                "user": {
+                    "login": "YJDave",
+                    "id": 25907420,
+                    "node_id": "MDQ6VXNlcjI1OTA3NDIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25907420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/YJDave",
+                    "html_url": "https://github.com/YJDave",
+                    "followers_url": "https://api.github.com/users/YJDave/followers",
+                    "following_url": "https://api.github.com/users/YJDave/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/YJDave/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/YJDave/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/YJDave/subscriptions",
+                    "organizations_url": "https://api.github.com/users/YJDave/orgs",
+                    "repos_url": "https://api.github.com/users/YJDave/repos",
+                    "events_url": "https://api.github.com/users/YJDave/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/YJDave/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2021-10-01T19:14:29Z",
+                "updated_at": "2021-10-01T19:14:56Z",
+                "closed_at": "2021-10-01T19:14:56Z",
+                "merged_at": "2021-10-01T19:14:56Z",
+                "merge_commit_sha": "85157bff4a3bb44e09d1e286e3810052fb67b2ad",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/commits",
+                "review_comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/comments",
+                "review_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1/comments",
+                "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/f79eb291b9682afd546082e2529afd91763d1c0e",
+                "head": {
+                    "label": "UIC-CS484:dev",
+                    "ref": "dev",
+                    "sha": "f79eb291b9682afd546082e2529afd91763d1c0e",
+                    "user": {
+                        "login": "UIC-CS484",
+                        "id": 88798339,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/UIC-CS484",
+                        "html_url": "https://github.com/UIC-CS484",
+                        "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                        "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                        "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                        "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                        "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 406098816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0MDYwOTg4MTY=",
+                        "name": "assignment-1---team-project-proposal-team27",
+                        "full_name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "private": false,
+                        "owner": {
+                            "login": "UIC-CS484",
+                            "id": 88798339,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/UIC-CS484",
+                            "html_url": "https://github.com/UIC-CS484",
+                            "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                            "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                            "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                            "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                            "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "description": "assignment-1---team-project-proposal-team27 created by GitHub Classroom",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "forks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/forks",
+                        "keys_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/teams",
+                        "hooks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/hooks",
+                        "issue_events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/events",
+                        "assignees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/tags",
+                        "blobs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/languages",
+                        "stargazers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/stargazers",
+                        "contributors_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contributors",
+                        "subscribers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscribers",
+                        "subscription_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscription",
+                        "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/merges",
+                        "archive_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/downloads",
+                        "issues_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/deployments",
+                        "created_at": "2021-09-13T19:14:05Z",
+                        "updated_at": "2021-09-24T23:08:45Z",
+                        "pushed_at": "2021-10-01T19:14:56Z",
+                        "git_url": "git://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "ssh_url": "git@github.com:UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "clone_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "svn_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 1,
+                        "watchers_count": 1,
+                        "language": "HTML",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "allow_forking": true,
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 1,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "UIC-CS484:master",
+                    "ref": "master",
+                    "sha": "d8af1d08383dde59991b1e29790d844c88695bd7",
+                    "user": {
+                        "login": "UIC-CS484",
+                        "id": 88798339,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/UIC-CS484",
+                        "html_url": "https://github.com/UIC-CS484",
+                        "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                        "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                        "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                        "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                        "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 406098816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0MDYwOTg4MTY=",
+                        "name": "assignment-1---team-project-proposal-team27",
+                        "full_name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "private": false,
+                        "owner": {
+                            "login": "UIC-CS484",
+                            "id": 88798339,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/UIC-CS484",
+                            "html_url": "https://github.com/UIC-CS484",
+                            "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                            "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                            "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                            "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                            "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "description": "assignment-1---team-project-proposal-team27 created by GitHub Classroom",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "forks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/forks",
+                        "keys_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/teams",
+                        "hooks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/hooks",
+                        "issue_events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/events",
+                        "assignees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/tags",
+                        "blobs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/languages",
+                        "stargazers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/stargazers",
+                        "contributors_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contributors",
+                        "subscribers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscribers",
+                        "subscription_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscription",
+                        "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/merges",
+                        "archive_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/downloads",
+                        "issues_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/deployments",
+                        "created_at": "2021-09-13T19:14:05Z",
+                        "updated_at": "2021-09-24T23:08:45Z",
+                        "pushed_at": "2021-10-01T19:14:56Z",
+                        "git_url": "git://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "ssh_url": "git@github.com:UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "clone_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "svn_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 1,
+                        "watchers_count": 1,
+                        "language": "HTML",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 0,
+                        "license": null,
+                        "allow_forking": true,
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 1,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1"
+                    },
+                    "html": {
+                        "href": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/f79eb291b9682afd546082e2529afd91763d1c0e"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "YJDave",
+                    "id": 25907420,
+                    "node_id": "MDQ6VXNlcjI1OTA3NDIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25907420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/YJDave",
+                    "html_url": "https://github.com/YJDave",
+                    "followers_url": "https://api.github.com/users/YJDave/followers",
+                    "following_url": "https://api.github.com/users/YJDave/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/YJDave/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/YJDave/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/YJDave/subscriptions",
+                    "organizations_url": "https://api.github.com/users/YJDave/orgs",
+                    "repos_url": "https://api.github.com/users/YJDave/repos",
+                    "events_url": "https://api.github.com/users/YJDave/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/YJDave/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 2,
+                "additions": 3,
+                "deletions": 0,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2021-10-01T19:14:57Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18246547896",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "push_id": 8061297423,
+            "size": 5,
+            "distinct_size": 1,
+            "ref": "refs/heads/dev",
+            "head": "f79eb291b9682afd546082e2529afd91763d1c0e",
+            "before": "be55c9b1e858f0096f839c059198756a2d8d164f",
+            "commits": [
+                {
+                    "sha": "8741a9b388de5ae67729484b8efe1b0dbb76561e",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add project data in file.",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/8741a9b388de5ae67729484b8efe1b0dbb76561e"
+                },
+                {
+                    "sha": "aa5a5cb5357c5bfd9ff4935f58a58f2040a86d61",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Resolve W3 errors",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/aa5a5cb5357c5bfd9ff4935f58a58f2040a86d61"
+                },
+                {
+                    "sha": "a085609ac43bd13a7917685f667a46e66df41ba3",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add media CSS",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/a085609ac43bd13a7917685f667a46e66df41ba3"
+                },
+                {
+                    "sha": "d8af1d08383dde59991b1e29790d844c88695bd7",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add link to github pages proposal",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/d8af1d08383dde59991b1e29790d844c88695bd7"
+                },
+                {
+                    "sha": "f79eb291b9682afd546082e2529afd91763d1c0e",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Merge branch 'master' into dev",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/f79eb291b9682afd546082e2529afd91763d1c0e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-10-01T19:14:52Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18246543647",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1,
+            "pull_request": {
+                "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1",
+                "id": 747879724,
+                "node_id": "PR_kwDOGDSTgM4sk70s",
+                "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1",
+                "diff_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1.diff",
+                "patch_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1.patch",
+                "issue_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1",
+                "number": 1,
+                "state": "open",
+                "locked": false,
+                "title": "Update README for branches",
+                "user": {
+                    "login": "YJDave",
+                    "id": 25907420,
+                    "node_id": "MDQ6VXNlcjI1OTA3NDIw",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25907420?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/YJDave",
+                    "html_url": "https://github.com/YJDave",
+                    "followers_url": "https://api.github.com/users/YJDave/followers",
+                    "following_url": "https://api.github.com/users/YJDave/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/YJDave/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/YJDave/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/YJDave/subscriptions",
+                    "organizations_url": "https://api.github.com/users/YJDave/orgs",
+                    "repos_url": "https://api.github.com/users/YJDave/repos",
+                    "events_url": "https://api.github.com/users/YJDave/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/YJDave/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2021-10-01T19:14:29Z",
+                "updated_at": "2021-10-01T19:14:29Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/commits",
+                "review_comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/comments",
+                "review_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1/comments",
+                "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/be55c9b1e858f0096f839c059198756a2d8d164f",
+                "head": {
+                    "label": "UIC-CS484:dev",
+                    "ref": "dev",
+                    "sha": "be55c9b1e858f0096f839c059198756a2d8d164f",
+                    "user": {
+                        "login": "UIC-CS484",
+                        "id": 88798339,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/UIC-CS484",
+                        "html_url": "https://github.com/UIC-CS484",
+                        "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                        "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                        "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                        "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                        "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 406098816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0MDYwOTg4MTY=",
+                        "name": "assignment-1---team-project-proposal-team27",
+                        "full_name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "private": false,
+                        "owner": {
+                            "login": "UIC-CS484",
+                            "id": 88798339,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/UIC-CS484",
+                            "html_url": "https://github.com/UIC-CS484",
+                            "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                            "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                            "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                            "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                            "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "description": "assignment-1---team-project-proposal-team27 created by GitHub Classroom",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "forks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/forks",
+                        "keys_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/teams",
+                        "hooks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/hooks",
+                        "issue_events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/events",
+                        "assignees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/tags",
+                        "blobs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/languages",
+                        "stargazers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/stargazers",
+                        "contributors_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contributors",
+                        "subscribers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscribers",
+                        "subscription_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscription",
+                        "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/merges",
+                        "archive_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/downloads",
+                        "issues_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/deployments",
+                        "created_at": "2021-09-13T19:14:05Z",
+                        "updated_at": "2021-09-24T23:08:45Z",
+                        "pushed_at": "2021-10-01T19:14:30Z",
+                        "git_url": "git://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "ssh_url": "git@github.com:UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "clone_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "svn_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 1,
+                        "watchers_count": 1,
+                        "language": "HTML",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "allow_forking": true,
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 1,
+                        "watchers": 1,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "UIC-CS484:master",
+                    "ref": "master",
+                    "sha": "d8af1d08383dde59991b1e29790d844c88695bd7",
+                    "user": {
+                        "login": "UIC-CS484",
+                        "id": 88798339,
+                        "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/UIC-CS484",
+                        "html_url": "https://github.com/UIC-CS484",
+                        "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                        "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                        "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                        "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                        "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                        "type": "Organization",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 406098816,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk0MDYwOTg4MTY=",
+                        "name": "assignment-1---team-project-proposal-team27",
+                        "full_name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "private": false,
+                        "owner": {
+                            "login": "UIC-CS484",
+                            "id": 88798339,
+                            "node_id": "MDEyOk9yZ2FuaXphdGlvbjg4Nzk4MzM5",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/UIC-CS484",
+                            "html_url": "https://github.com/UIC-CS484",
+                            "followers_url": "https://api.github.com/users/UIC-CS484/followers",
+                            "following_url": "https://api.github.com/users/UIC-CS484/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/UIC-CS484/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/UIC-CS484/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/UIC-CS484/subscriptions",
+                            "organizations_url": "https://api.github.com/users/UIC-CS484/orgs",
+                            "repos_url": "https://api.github.com/users/UIC-CS484/repos",
+                            "events_url": "https://api.github.com/users/UIC-CS484/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/UIC-CS484/received_events",
+                            "type": "Organization",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "description": "assignment-1---team-project-proposal-team27 created by GitHub Classroom",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "forks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/forks",
+                        "keys_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/teams",
+                        "hooks_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/hooks",
+                        "issue_events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/events",
+                        "assignees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/tags",
+                        "blobs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/languages",
+                        "stargazers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/stargazers",
+                        "contributors_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contributors",
+                        "subscribers_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscribers",
+                        "subscription_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/subscription",
+                        "commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/merges",
+                        "archive_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/downloads",
+                        "issues_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/deployments",
+                        "created_at": "2021-09-13T19:14:05Z",
+                        "updated_at": "2021-09-24T23:08:45Z",
+                        "pushed_at": "2021-10-01T19:14:30Z",
+                        "git_url": "git://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "ssh_url": "git@github.com:UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "clone_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27.git",
+                        "svn_url": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 1,
+                        "watchers_count": 1,
+                        "language": "HTML",
+                        "has_issues": true,
+                        "has_projects": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": true,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 1,
+                        "license": null,
+                        "allow_forking": true,
+                        "visibility": "public",
+                        "forks": 0,
+                        "open_issues": 1,
+                        "watchers": 1,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1"
+                    },
+                    "html": {
+                        "href": "https://github.com/UIC-CS484/assignment-1---team-project-proposal-team27/pull/1"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/issues/1/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/pulls/1/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/statuses/be55c9b1e858f0096f839c059198756a2d8d164f"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": false,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 2,
+                "deletions": 0,
+                "changed_files": 1
+            }
+        },
+        "public": true,
+        "created_at": "2021-10-01T19:14:30Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    },
+    {
+        "id": "18142495812",
+        "type": "PushEvent",
+        "actor": {
+            "id": 25907420,
+            "login": "YJDave",
+            "display_login": "YJDave",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/YJDave",
+            "avatar_url": "https://avatars.githubusercontent.com/u/25907420?"
+        },
+        "repo": {
+            "id": 406098816,
+            "name": "UIC-CS484/assignment-1---team-project-proposal-team27",
+            "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27"
+        },
+        "payload": {
+            "push_id": 8010765568,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "d8af1d08383dde59991b1e29790d844c88695bd7",
+            "before": "a085609ac43bd13a7917685f667a46e66df41ba3",
+            "commits": [
+                {
+                    "sha": "d8af1d08383dde59991b1e29790d844c88695bd7",
+                    "author": {
+                        "email": "yashashvidave@gmail.com",
+                        "name": "Yashashvi Dave"
+                    },
+                    "message": "Add link to github pages proposal",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/UIC-CS484/assignment-1---team-project-proposal-team27/commits/d8af1d08383dde59991b1e29790d844c88695bd7"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2021-09-24T23:08:44Z",
+        "org": {
+            "id": 88798339,
+            "login": "UIC-CS484",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/UIC-CS484",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88798339?"
+        }
+    }
+]
